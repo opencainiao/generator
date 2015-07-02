@@ -1,0 +1,866 @@
+2015-04-05 14:27:24.765 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:24.766 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:24.766 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:24.776 DEBUG generator.generators.backend.GenDao 50 genDaoFile - 
+生成Dao完毕
+F:\bx\gen\SysConstDao.java
+2015-04-05 14:27:24.779 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:24.779 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:24.779 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:24.780 DEBUG generator.generators.backend.GenService 41 genInterface - data
+{detailfilename=detail.jsp, servicename=SysConstService, controllerfilename=SysConstController.java, controllerpackagename=com.bxb.modules.infrastructure.controller, daofilename=SysConstDao.java, addfilename=add.jsp, serviceinterfacename=ISysConstService, domainfullname=com.bxb.modules.infrastructure.model.SysConst, serviceinterfacefullname=com.bxb.modules.infrastructure.service.ISysConstService, daozhujiename=sysconstdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.infrastructure.service, bussnessmodule=infrastructure, servicefilename=SysConstService.java, collectionname=sysconst, listjsfilename=list.js, bussnesdomainnameL=sysconst, bussnesspackagename=com.bxb.modules.infrastructure, servicezhujiename=sysConstService, listfilename=list.jsp, servicefullname=com.bxb.modules.infrastructure.service.SysConstService, daofullname=com.bxb.modules.infrastructure.dao.SysConstDao, daopackagename=com.bxb.modules.infrastructure.dao, bussnesdomainname=SysConst, daoname=SysConstDao, controllername=SysConstController, serviceinterfacefilename=ISysConstService.java}
+2015-04-05 14:27:24.781 DEBUG generator.generators.backend.GenService 53 genInterface - 
+生成文件完毕
+F:\bx\gen\ISysConstService.java
+2015-04-05 14:27:24.787 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:24.787 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:24.788 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:24.788 DEBUG generator.generators.backend.GenService 64 genService - data
+{detailfilename=detail.jsp, servicename=SysConstService, controllerfilename=SysConstController.java, controllerpackagename=com.bxb.modules.infrastructure.controller, daofilename=SysConstDao.java, addfilename=add.jsp, serviceinterfacename=ISysConstService, domainfullname=com.bxb.modules.infrastructure.model.SysConst, serviceinterfacefullname=com.bxb.modules.infrastructure.service.ISysConstService, daozhujiename=sysconstdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.infrastructure.service, bussnessmodule=infrastructure, servicefilename=SysConstService.java, collectionname=sysconst, listjsfilename=list.js, bussnesdomainnameL=sysconst, bussnesspackagename=com.bxb.modules.infrastructure, servicezhujiename=sysConstService, listfilename=list.jsp, servicefullname=com.bxb.modules.infrastructure.service.SysConstService, daofullname=com.bxb.modules.infrastructure.dao.SysConstDao, daopackagename=com.bxb.modules.infrastructure.dao, bussnesdomainname=SysConst, daoname=SysConstDao, controllername=SysConstController, serviceinterfacefilename=ISysConstService.java}
+2015-04-05 14:27:24.789 DEBUG generator.generators.backend.GenService 76 genService - 
+生成文件完毕
+F:\bx\gen\SysConstService.java
+2015-04-05 14:27:24.807 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:24.807 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:24.807 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:24.808 DEBUG generator.generators.backend.GenController 57 genController - data
+{detailfilename=detail.jsp, servicename=SysConstService, controllerfilename=SysConstController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.infrastructure.controller, domainname=常量, daofilename=SysConstDao.java, addfilename=add.jsp, serviceinterfacename=ISysConstService, domainfullname=com.bxb.modules.infrastructure.model.SysConst, serviceinterfacefullname=com.bxb.modules.infrastructure.service.ISysConstService, daozhujiename=sysconstdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.infrastructure.service, bussnessmodule=infrastructure, servicefilename=SysConstService.java, collectionname=sysconst, listjsfilename=list.js, bussnesdomainnameL=sysconst, bussnesspackagename=com.bxb.modules.infrastructure, servicezhujiename=sysConstService, listfilename=list.jsp, servicefullname=com.bxb.modules.infrastructure.service.SysConstService, daofullname=com.bxb.modules.infrastructure.dao.SysConstDao, daopackagename=com.bxb.modules.infrastructure.dao, bussnesdomainname=SysConst, daoname=SysConstDao, controllerparentpath=backend, controllername=SysConstController, serviceinterfacefilename=ISysConstService.java}
+2015-04-05 14:27:24.810 DEBUG generator.generators.backend.GenController 69 genController - 
+生成文件完毕
+F:\bx\gen\SysConstController.java
+2015-04-05 14:27:24.856 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:24.856 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:24.857 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:24.857 DEBUG generator.generators.front.GenAddJsp 57 genFile - data
+{detailfilename=detail.jsp, servicename=SysConstService, controllerfilename=SysConstController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.infrastructure.controller, domainname=常量, daofilename=SysConstDao.java, addfilename=add.jsp, serviceinterfacename=ISysConstService, domainfullname=com.bxb.modules.infrastructure.model.SysConst, fields={val=常量值, dspval=常量显示值, typename=常量类型, valordernum=常量值顺序号, type=常量类型码}, serviceinterfacefullname=com.bxb.modules.infrastructure.service.ISysConstService, daozhujiename=sysconstdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.infrastructure.service, bussnessmodule=infrastructure, servicefilename=SysConstService.java, collectionname=sysconst, listjsfilename=list.js, bussnesdomainnameL=sysconst, bussnesspackagename=com.bxb.modules.infrastructure, servicezhujiename=sysConstService, listfilename=list.jsp, servicefullname=com.bxb.modules.infrastructure.service.SysConstService, daofullname=com.bxb.modules.infrastructure.dao.SysConstDao, daopackagename=com.bxb.modules.infrastructure.dao, bussnesdomainname=SysConst, daoname=SysConstDao, controllerparentpath=backend, controllername=SysConstController, serviceinterfacefilename=ISysConstService.java}
+2015-04-05 14:27:24.860 DEBUG generator.generators.front.GenAddJsp 69 genFile - 
+生成文件完毕
+F:\bx\gen\add.jsp
+2015-04-05 14:27:24.865 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:24.865 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:24.866 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:24.866 DEBUG generator.generators.front.GenEditJsp 57 genFile - data
+{detailfilename=detail.jsp, servicename=SysConstService, controllerfilename=SysConstController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.infrastructure.controller, domainname=常量, daofilename=SysConstDao.java, addfilename=add.jsp, serviceinterfacename=ISysConstService, domainfullname=com.bxb.modules.infrastructure.model.SysConst, fields={val=常量值, dspval=常量显示值, typename=常量类型, valordernum=常量值顺序号, type=常量类型码}, serviceinterfacefullname=com.bxb.modules.infrastructure.service.ISysConstService, daozhujiename=sysconstdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.infrastructure.service, bussnessmodule=infrastructure, servicefilename=SysConstService.java, collectionname=sysconst, listjsfilename=list.js, bussnesdomainnameL=sysconst, bussnesspackagename=com.bxb.modules.infrastructure, servicezhujiename=sysConstService, listfilename=list.jsp, servicefullname=com.bxb.modules.infrastructure.service.SysConstService, daofullname=com.bxb.modules.infrastructure.dao.SysConstDao, daopackagename=com.bxb.modules.infrastructure.dao, bussnesdomainname=SysConst, daoname=SysConstDao, controllerparentpath=backend, controllername=SysConstController, serviceinterfacefilename=ISysConstService.java}
+2015-04-05 14:27:24.868 DEBUG generator.generators.front.GenEditJsp 69 genFile - 
+生成文件完毕
+F:\bx\gen\update.jsp
+2015-04-05 14:27:24.870 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:24.870 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:24.871 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:24.871 DEBUG generator.generators.front.GenDetailJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=SysConstService, controllerfilename=SysConstController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.infrastructure.controller, domainname=常量, daofilename=SysConstDao.java, addfilename=add.jsp, serviceinterfacename=ISysConstService, domainfullname=com.bxb.modules.infrastructure.model.SysConst, fields={val=常量值, dspval=常量显示值, typename=常量类型, valordernum=常量值顺序号, type=常量类型码}, serviceinterfacefullname=com.bxb.modules.infrastructure.service.ISysConstService, daozhujiename=sysconstdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.infrastructure.service, bussnessmodule=infrastructure, servicefilename=SysConstService.java, collectionname=sysconst, listjsfilename=list.js, bussnesdomainnameL=sysconst, bussnesspackagename=com.bxb.modules.infrastructure, servicezhujiename=sysConstService, listfilename=list.jsp, servicefullname=com.bxb.modules.infrastructure.service.SysConstService, daofullname=com.bxb.modules.infrastructure.dao.SysConstDao, daopackagename=com.bxb.modules.infrastructure.dao, bussnesdomainname=SysConst, daoname=SysConstDao, controllerparentpath=backend, controllername=SysConstController, serviceinterfacefilename=ISysConstService.java}
+2015-04-05 14:27:24.872 DEBUG generator.generators.front.GenDetailJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\detail.jsp
+2015-04-05 14:27:24.875 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:24.876 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:24.876 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:24.876 DEBUG generator.generators.front.GenListJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=SysConstService, controllerfilename=SysConstController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.infrastructure.controller, domainname=常量, daofilename=SysConstDao.java, addfilename=add.jsp, serviceinterfacename=ISysConstService, domainfullname=com.bxb.modules.infrastructure.model.SysConst, fields={val=常量值, dspval=常量显示值, typename=常量类型, valordernum=常量值顺序号, type=常量类型码}, serviceinterfacefullname=com.bxb.modules.infrastructure.service.ISysConstService, daozhujiename=sysconstdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.infrastructure.service, bussnessmodule=infrastructure, servicefilename=SysConstService.java, collectionname=sysconst, listjsfilename=list.js, bussnesdomainnameL=sysconst, bussnesspackagename=com.bxb.modules.infrastructure, servicezhujiename=sysConstService, listfilename=list.jsp, servicefullname=com.bxb.modules.infrastructure.service.SysConstService, daofullname=com.bxb.modules.infrastructure.dao.SysConstDao, daopackagename=com.bxb.modules.infrastructure.dao, bussnesdomainname=SysConst, daoname=SysConstDao, controllerparentpath=backend, controllername=SysConstController, serviceinterfacefilename=ISysConstService.java}
+2015-04-05 14:27:24.933 DEBUG generator.generators.front.GenListJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.jsp
+2015-04-05 14:27:24.952 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:24.953 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:24.953 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:24.955 DEBUG generator.generators.front.GenListJs 56 genFile - data
+{detailfilename=detail.jsp, servicename=SysConstService, controllerfilename=SysConstController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.infrastructure.controller, domainname=常量, daofilename=SysConstDao.java, addfilename=add.jsp, serviceinterfacename=ISysConstService, domainfullname=com.bxb.modules.infrastructure.model.SysConst, fields={val=常量值, dspval=常量显示值, typename=常量类型, valordernum=常量值顺序号, type=常量类型码}, serviceinterfacefullname=com.bxb.modules.infrastructure.service.ISysConstService, daozhujiename=sysconstdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.infrastructure.service, bussnessmodule=infrastructure, servicefilename=SysConstService.java, collectionname=sysconst, listjsfilename=list.js, bussnesdomainnameL=sysconst, bussnesspackagename=com.bxb.modules.infrastructure, servicezhujiename=sysConstService, listfilename=list.jsp, servicefullname=com.bxb.modules.infrastructure.service.SysConstService, daofullname=com.bxb.modules.infrastructure.dao.SysConstDao, daopackagename=com.bxb.modules.infrastructure.dao, bussnesdomainname=SysConst, daoname=SysConstDao, controllerparentpath=backend, controllername=SysConstController, serviceinterfacefilename=ISysConstService.java}
+2015-04-05 14:27:24.960 DEBUG generator.generators.front.GenListJs 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.js
+2015-04-05 14:27:24.961 INFO  generator.generators.AllGenerator 44 main - 生成所有文件完毕！
+2015-04-05 14:27:44.441 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:44.442 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:44.442 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:44.452 DEBUG generator.generators.backend.GenDao 50 genDaoFile - 
+生成Dao完毕
+F:\bx\gen\SysConstDao.java
+2015-04-05 14:27:44.455 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:44.455 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:44.456 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:44.456 DEBUG generator.generators.backend.GenService 41 genInterface - data
+{detailfilename=detail.jsp, servicename=SysConstService, controllerfilename=SysConstController.java, controllerpackagename=com.bxb.modules.infrastructure.controller, daofilename=SysConstDao.java, addfilename=add.jsp, serviceinterfacename=ISysConstService, domainfullname=com.bxb.modules.infrastructure.model.SysConst, serviceinterfacefullname=com.bxb.modules.infrastructure.service.ISysConstService, daozhujiename=sysconstdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.infrastructure.service, bussnessmodule=infrastructure, servicefilename=SysConstService.java, collectionname=sysconst, listjsfilename=list.js, bussnesdomainnameL=sysconst, bussnesspackagename=com.bxb.modules.infrastructure, servicezhujiename=sysConstService, listfilename=list.jsp, servicefullname=com.bxb.modules.infrastructure.service.SysConstService, daofullname=com.bxb.modules.infrastructure.dao.SysConstDao, daopackagename=com.bxb.modules.infrastructure.dao, bussnesdomainname=SysConst, daoname=SysConstDao, controllername=SysConstController, serviceinterfacefilename=ISysConstService.java}
+2015-04-05 14:27:44.457 DEBUG generator.generators.backend.GenService 53 genInterface - 
+生成文件完毕
+F:\bx\gen\ISysConstService.java
+2015-04-05 14:27:44.463 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:44.463 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:44.464 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:44.464 DEBUG generator.generators.backend.GenService 64 genService - data
+{detailfilename=detail.jsp, servicename=SysConstService, controllerfilename=SysConstController.java, controllerpackagename=com.bxb.modules.infrastructure.controller, daofilename=SysConstDao.java, addfilename=add.jsp, serviceinterfacename=ISysConstService, domainfullname=com.bxb.modules.infrastructure.model.SysConst, serviceinterfacefullname=com.bxb.modules.infrastructure.service.ISysConstService, daozhujiename=sysconstdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.infrastructure.service, bussnessmodule=infrastructure, servicefilename=SysConstService.java, collectionname=sysconst, listjsfilename=list.js, bussnesdomainnameL=sysconst, bussnesspackagename=com.bxb.modules.infrastructure, servicezhujiename=sysConstService, listfilename=list.jsp, servicefullname=com.bxb.modules.infrastructure.service.SysConstService, daofullname=com.bxb.modules.infrastructure.dao.SysConstDao, daopackagename=com.bxb.modules.infrastructure.dao, bussnesdomainname=SysConst, daoname=SysConstDao, controllername=SysConstController, serviceinterfacefilename=ISysConstService.java}
+2015-04-05 14:27:44.465 DEBUG generator.generators.backend.GenService 76 genService - 
+生成文件完毕
+F:\bx\gen\SysConstService.java
+2015-04-05 14:27:44.484 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:44.485 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:44.485 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:44.486 DEBUG generator.generators.backend.GenController 57 genController - data
+{detailfilename=detail.jsp, servicename=SysConstService, controllerfilename=SysConstController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.infrastructure.controller, domainname=常量, daofilename=SysConstDao.java, addfilename=add.jsp, serviceinterfacename=ISysConstService, domainfullname=com.bxb.modules.infrastructure.model.SysConst, serviceinterfacefullname=com.bxb.modules.infrastructure.service.ISysConstService, daozhujiename=sysconstdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.infrastructure.service, bussnessmodule=infrastructure, servicefilename=SysConstService.java, collectionname=sysconst, listjsfilename=list.js, bussnesdomainnameL=sysconst, bussnesspackagename=com.bxb.modules.infrastructure, servicezhujiename=sysConstService, listfilename=list.jsp, servicefullname=com.bxb.modules.infrastructure.service.SysConstService, daofullname=com.bxb.modules.infrastructure.dao.SysConstDao, daopackagename=com.bxb.modules.infrastructure.dao, bussnesdomainname=SysConst, daoname=SysConstDao, controllerparentpath=backend, controllername=SysConstController, serviceinterfacefilename=ISysConstService.java}
+2015-04-05 14:27:44.488 DEBUG generator.generators.backend.GenController 69 genController - 
+生成文件完毕
+F:\bx\gen\SysConstController.java
+2015-04-05 14:27:44.533 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:44.533 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:44.533 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:44.534 DEBUG generator.generators.front.GenAddJsp 57 genFile - data
+{detailfilename=detail.jsp, servicename=SysConstService, controllerfilename=SysConstController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.infrastructure.controller, domainname=常量, daofilename=SysConstDao.java, addfilename=add.jsp, serviceinterfacename=ISysConstService, domainfullname=com.bxb.modules.infrastructure.model.SysConst, fields={val=常量值, dspval=常量显示值, typename=常量类型, valordernum=常量值顺序号, type=常量类型码}, serviceinterfacefullname=com.bxb.modules.infrastructure.service.ISysConstService, daozhujiename=sysconstdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.infrastructure.service, bussnessmodule=infrastructure, servicefilename=SysConstService.java, collectionname=sysconst, listjsfilename=list.js, bussnesdomainnameL=sysconst, bussnesspackagename=com.bxb.modules.infrastructure, servicezhujiename=sysConstService, listfilename=list.jsp, servicefullname=com.bxb.modules.infrastructure.service.SysConstService, daofullname=com.bxb.modules.infrastructure.dao.SysConstDao, daopackagename=com.bxb.modules.infrastructure.dao, bussnesdomainname=SysConst, daoname=SysConstDao, controllerparentpath=backend, controllername=SysConstController, serviceinterfacefilename=ISysConstService.java}
+2015-04-05 14:27:44.536 DEBUG generator.generators.front.GenAddJsp 69 genFile - 
+生成文件完毕
+F:\bx\gen\add.jsp
+2015-04-05 14:27:44.541 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:44.542 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:44.542 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:44.543 DEBUG generator.generators.front.GenEditJsp 57 genFile - data
+{detailfilename=detail.jsp, servicename=SysConstService, controllerfilename=SysConstController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.infrastructure.controller, domainname=常量, daofilename=SysConstDao.java, addfilename=add.jsp, serviceinterfacename=ISysConstService, domainfullname=com.bxb.modules.infrastructure.model.SysConst, fields={val=常量值, dspval=常量显示值, typename=常量类型, valordernum=常量值顺序号, type=常量类型码}, serviceinterfacefullname=com.bxb.modules.infrastructure.service.ISysConstService, daozhujiename=sysconstdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.infrastructure.service, bussnessmodule=infrastructure, servicefilename=SysConstService.java, collectionname=sysconst, listjsfilename=list.js, bussnesdomainnameL=sysconst, bussnesspackagename=com.bxb.modules.infrastructure, servicezhujiename=sysConstService, listfilename=list.jsp, servicefullname=com.bxb.modules.infrastructure.service.SysConstService, daofullname=com.bxb.modules.infrastructure.dao.SysConstDao, daopackagename=com.bxb.modules.infrastructure.dao, bussnesdomainname=SysConst, daoname=SysConstDao, controllerparentpath=backend, controllername=SysConstController, serviceinterfacefilename=ISysConstService.java}
+2015-04-05 14:27:44.543 DEBUG generator.generators.front.GenEditJsp 69 genFile - 
+生成文件完毕
+F:\bx\gen\update.jsp
+2015-04-05 14:27:44.545 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:44.546 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:44.546 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:44.546 DEBUG generator.generators.front.GenDetailJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=SysConstService, controllerfilename=SysConstController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.infrastructure.controller, domainname=常量, daofilename=SysConstDao.java, addfilename=add.jsp, serviceinterfacename=ISysConstService, domainfullname=com.bxb.modules.infrastructure.model.SysConst, fields={val=常量值, dspval=常量显示值, typename=常量类型, valordernum=常量值顺序号, type=常量类型码}, serviceinterfacefullname=com.bxb.modules.infrastructure.service.ISysConstService, daozhujiename=sysconstdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.infrastructure.service, bussnessmodule=infrastructure, servicefilename=SysConstService.java, collectionname=sysconst, listjsfilename=list.js, bussnesdomainnameL=sysconst, bussnesspackagename=com.bxb.modules.infrastructure, servicezhujiename=sysConstService, listfilename=list.jsp, servicefullname=com.bxb.modules.infrastructure.service.SysConstService, daofullname=com.bxb.modules.infrastructure.dao.SysConstDao, daopackagename=com.bxb.modules.infrastructure.dao, bussnesdomainname=SysConst, daoname=SysConstDao, controllerparentpath=backend, controllername=SysConstController, serviceinterfacefilename=ISysConstService.java}
+2015-04-05 14:27:44.547 DEBUG generator.generators.front.GenDetailJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\detail.jsp
+2015-04-05 14:27:44.549 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:44.550 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:44.550 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:44.550 DEBUG generator.generators.front.GenListJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=SysConstService, controllerfilename=SysConstController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.infrastructure.controller, domainname=常量, daofilename=SysConstDao.java, addfilename=add.jsp, serviceinterfacename=ISysConstService, domainfullname=com.bxb.modules.infrastructure.model.SysConst, fields={val=常量值, dspval=常量显示值, typename=常量类型, valordernum=常量值顺序号, type=常量类型码}, serviceinterfacefullname=com.bxb.modules.infrastructure.service.ISysConstService, daozhujiename=sysconstdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.infrastructure.service, bussnessmodule=infrastructure, servicefilename=SysConstService.java, collectionname=sysconst, listjsfilename=list.js, bussnesdomainnameL=sysconst, bussnesspackagename=com.bxb.modules.infrastructure, servicezhujiename=sysConstService, listfilename=list.jsp, servicefullname=com.bxb.modules.infrastructure.service.SysConstService, daofullname=com.bxb.modules.infrastructure.dao.SysConstDao, daopackagename=com.bxb.modules.infrastructure.dao, bussnesdomainname=SysConst, daoname=SysConstDao, controllerparentpath=backend, controllername=SysConstController, serviceinterfacefilename=ISysConstService.java}
+2015-04-05 14:27:44.551 DEBUG generator.generators.front.GenListJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.jsp
+2015-04-05 14:27:44.556 DEBUG generator.util.NameGetter 34 getNames - bussnesspackagename[com.bxb.modules.infrastructure]
+2015-04-05 14:27:44.556 DEBUG generator.util.NameGetter 38 getNames - bussnessmodule[infrastructure]
+2015-04-05 14:27:44.556 DEBUG generator.util.NameGetter 76 getNames - servicezhujiename[sysConstService]
+2015-04-05 14:27:44.556 DEBUG generator.generators.front.GenListJs 56 genFile - data
+{detailfilename=detail.jsp, servicename=SysConstService, controllerfilename=SysConstController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.infrastructure.controller, domainname=常量, daofilename=SysConstDao.java, addfilename=add.jsp, serviceinterfacename=ISysConstService, domainfullname=com.bxb.modules.infrastructure.model.SysConst, fields={val=常量值, dspval=常量显示值, typename=常量类型, valordernum=常量值顺序号, type=常量类型码}, serviceinterfacefullname=com.bxb.modules.infrastructure.service.ISysConstService, daozhujiename=sysconstdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.infrastructure.service, bussnessmodule=infrastructure, servicefilename=SysConstService.java, collectionname=sysconst, listjsfilename=list.js, bussnesdomainnameL=sysconst, bussnesspackagename=com.bxb.modules.infrastructure, servicezhujiename=sysConstService, listfilename=list.jsp, servicefullname=com.bxb.modules.infrastructure.service.SysConstService, daofullname=com.bxb.modules.infrastructure.dao.SysConstDao, daopackagename=com.bxb.modules.infrastructure.dao, bussnesdomainname=SysConst, daoname=SysConstDao, controllerparentpath=backend, controllername=SysConstController, serviceinterfacefilename=ISysConstService.java}
+2015-04-05 14:27:44.557 DEBUG generator.generators.front.GenListJs 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.js
+2015-04-05 14:27:44.558 INFO  generator.generators.AllGenerator 44 main - 生成所有文件完毕！
+2015-06-30 16:51:00.993 DEBUG generator.util.NameGetter 44 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-06-30 16:51:00.994 DEBUG generator.util.NameGetter 48 getNames - bussnessmodule[user]
+2015-06-30 16:51:00.994 DEBUG generator.util.NameGetter 86 getNames - servicezhujiename[userService]
+2015-06-30 17:19:55.927 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-06-30 17:19:55.928 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-06-30 17:19:55.928 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-06-30 17:19:55.938 DEBUG generator.generators.backend.GenDao 87 genDaoFile - 
+生成Dao完毕
+F:\bx\gen\UserDao.java
+2015-07-01 07:33:22.446 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 07:33:22.447 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 07:33:22.447 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 07:33:22.448 DEBUG generator.generators.backend.GenController 104 genController - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 07:33:22.458 DEBUG generator.generators.backend.GenController 116 genController - 
+生成文件完毕
+F:\bx\gen\UserController.java
+文件目录:
+F:\bx\gen
+2015-07-01 07:39:21.437 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 07:39:21.439 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 07:39:21.439 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 07:39:21.439 DEBUG generator.generators.backend.GenService 98 genInterface - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, controllerpackagename=com.bxb.modules.user.controller, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 07:39:21.454 DEBUG generator.generators.backend.GenService 110 genInterface - 
+生成文件完毕
+F:\bx\gen\IUserService.java
+文件目录:
+F:\bx\gen
+2015-07-01 07:39:21.463 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 07:39:21.464 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 07:39:21.464 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 07:39:21.464 DEBUG generator.generators.backend.GenService 122 genService - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, controllerpackagename=com.bxb.modules.user.controller, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 07:39:21.465 DEBUG generator.generators.backend.GenService 134 genService - 
+生成文件完毕
+F:\bx\gen\UserService.java
+文件目录:
+F:\bx\gen
+2015-07-01 07:48:02.018 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 07:48:02.020 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 07:48:02.020 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 07:48:02.031 DEBUG generator.generators.backend.GenDao 87 genDaoFile - 
+生成Dao完毕
+F:\bx\gen\UserDao.java
+2015-07-01 07:49:40.320 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 07:49:40.321 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 07:49:40.322 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 07:49:40.334 DEBUG generator.generators.backend.GenDao 87 genDaoFile - 
+生成Dao完毕
+F:\bx\gen\UserDao.java
+2015-07-01 07:50:00.522 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 07:50:00.524 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 07:50:00.524 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 07:50:00.537 DEBUG generator.generators.backend.GenDao 87 genDaoFile - 
+生成Dao完毕
+F:\bx\gen\UserDao.java
+2015-07-01 08:23:12.149 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 08:23:12.151 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 08:23:12.151 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 08:23:12.197 DEBUG generator.generators.front.GenAddJsp 107 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 08:23:14.305 DEBUG generator.generators.front.GenAddJsp 119 genFile - 
+生成文件完毕
+F:\bx\gen\add.jsp
+2015-07-01 08:25:24.326 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 08:25:24.328 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 08:25:24.328 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 08:25:24.364 DEBUG generator.generators.front.GenAddJsp 107 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 08:25:24.385 DEBUG generator.generators.front.GenAddJsp 119 genFile - 
+生成文件完毕
+F:\bx\gen\add.jsp
+2015-07-01 08:32:20.877 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 08:32:20.879 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 08:32:20.879 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 08:32:20.916 DEBUG generator.generators.front.GenAddJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 08:32:20.941 DEBUG generator.generators.front.GenAddJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\add.jsp
+2015-07-01 08:32:34.058 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 08:32:34.059 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 08:32:34.059 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 08:32:34.099 DEBUG generator.generators.front.GenDetailJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 08:32:34.119 DEBUG generator.generators.front.GenDetailJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\detail.jsp
+2015-07-01 08:33:47.612 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 08:33:47.614 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 08:33:47.614 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 08:33:47.663 DEBUG generator.generators.front.GenDetailJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 08:33:47.691 DEBUG generator.generators.front.GenDetailJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\detail.jsp
+2015-07-01 08:38:40.002 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 08:38:40.004 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 08:38:40.004 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 08:38:40.045 DEBUG generator.generators.front.GenEditJsp 57 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 08:38:40.068 DEBUG generator.generators.front.GenEditJsp 69 genFile - 
+生成文件完毕
+F:\bx\gen\update.jsp
+2015-07-01 08:39:35.826 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 08:39:35.828 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 08:39:35.828 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 08:39:35.875 DEBUG generator.generators.front.GenEditJsp 57 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 08:39:35.899 DEBUG generator.generators.front.GenEditJsp 69 genFile - 
+生成文件完毕
+F:\bx\gen\update.jsp
+2015-07-01 08:43:24.517 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 08:43:24.518 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 08:43:24.518 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 08:43:24.555 DEBUG generator.generators.front.GenListJs 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 08:45:00.806 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 08:45:00.807 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 08:45:00.808 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 08:45:00.848 DEBUG generator.generators.front.GenListJs 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 08:45:00.868 DEBUG generator.generators.front.GenListJs 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.js
+2015-07-01 08:46:18.944 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 08:46:18.946 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 08:46:18.947 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 08:46:18.996 DEBUG generator.generators.front.GenListJs 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 08:46:19.018 DEBUG generator.generators.front.GenListJs 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.js
+2015-07-01 09:03:41.301 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:03:41.305 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:03:41.305 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:03:41.434 DEBUG generator.generators.front.GenAddJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:03:41.510 DEBUG generator.generators.front.GenAddJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\add.jsp
+2015-07-01 09:03:41.528 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:03:41.529 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:03:41.530 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:03:41.533 DEBUG generator.generators.front.GenEditJsp 57 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:03:41.541 DEBUG generator.generators.front.GenEditJsp 69 genFile - 
+生成文件完毕
+F:\bx\gen\update.jsp
+2015-07-01 09:03:41.549 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:03:41.550 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:03:41.551 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:03:41.554 DEBUG generator.generators.front.GenDetailJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:03:41.560 DEBUG generator.generators.front.GenDetailJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\detail.jsp
+2015-07-01 09:03:41.577 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:03:41.578 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:03:41.579 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:03:41.582 DEBUG generator.generators.front.GenListJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:03:41.913 DEBUG generator.generators.front.GenListJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.jsp
+2015-07-01 09:03:41.977 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:03:41.978 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:03:41.978 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:03:41.980 DEBUG generator.generators.front.GenListJs 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:03:41.983 DEBUG generator.generators.front.GenListJs 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.js
+2015-07-01 09:26:17.711 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:26:17.712 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:26:17.712 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:26:17.728 DEBUG generator.generators.backend.GenDao 87 genDaoFile - 
+生成Dao完毕
+F:\bx\gen\UserDao.java
+2015-07-01 09:26:17.732 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:26:17.732 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:26:17.732 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:26:17.733 DEBUG generator.generators.backend.GenService 98 genInterface - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, controllerpackagename=com.bxb.modules.user.controller, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:26:17.735 DEBUG generator.generators.backend.GenService 110 genInterface - 
+生成文件完毕
+F:\bx\gen\IUserService.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:26:17.741 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:26:17.741 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:26:17.741 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:26:17.742 DEBUG generator.generators.backend.GenService 122 genService - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, controllerpackagename=com.bxb.modules.user.controller, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:26:19.901 DEBUG generator.generators.backend.GenService 134 genService - 
+生成文件完毕
+F:\bx\gen\UserService.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:26:19.957 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:26:19.958 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:26:19.959 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:26:19.960 DEBUG generator.generators.backend.GenController 104 genController - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:26:19.965 DEBUG generator.generators.backend.GenController 116 genController - 
+生成文件完毕
+F:\bx\gen\UserController.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:26:19.982 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:26:19.982 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:26:19.982 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:26:20.065 DEBUG generator.generators.front.GenAddJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:26:20.081 DEBUG generator.generators.front.GenAddJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\add.jsp
+2015-07-01 09:26:20.086 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:26:20.087 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:26:20.087 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:26:20.088 DEBUG generator.generators.front.GenEditJsp 57 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:26:20.089 DEBUG generator.generators.front.GenEditJsp 69 genFile - 
+生成文件完毕
+F:\bx\gen\update.jsp
+2015-07-01 09:26:20.092 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:26:20.092 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:26:20.092 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:26:20.093 DEBUG generator.generators.front.GenDetailJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:26:20.094 DEBUG generator.generators.front.GenDetailJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\detail.jsp
+2015-07-01 09:26:20.097 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:26:20.097 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:26:20.097 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:26:20.098 DEBUG generator.generators.front.GenListJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:26:20.099 DEBUG generator.generators.front.GenListJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.jsp
+2015-07-01 09:26:20.103 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:26:20.104 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:26:20.104 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:26:20.105 DEBUG generator.generators.front.GenListJs 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:26:20.106 DEBUG generator.generators.front.GenListJs 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.js
+2015-07-01 09:26:20.107 INFO  generator.generators.AllGenerator 32 main - 生成所有文件完毕！
+2015-07-01 09:27:06.019 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:27:06.022 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:27:06.022 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:27:06.051 DEBUG generator.generators.backend.GenDao 87 genDaoFile - 
+生成Dao完毕
+F:\bx\gen\UserDao.java
+2015-07-01 09:27:06.059 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:27:06.060 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:27:06.061 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:27:06.063 DEBUG generator.generators.backend.GenService 98 genInterface - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, controllerpackagename=com.bxb.modules.user.controller, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:27:06.067 DEBUG generator.generators.backend.GenService 110 genInterface - 
+生成文件完毕
+F:\bx\gen\IUserService.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:27:06.092 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:27:06.093 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:27:06.094 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:27:06.095 DEBUG generator.generators.backend.GenService 122 genService - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, controllerpackagename=com.bxb.modules.user.controller, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:27:06.098 DEBUG generator.generators.backend.GenService 134 genService - 
+生成文件完毕
+F:\bx\gen\UserService.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:27:06.149 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:27:06.150 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:27:06.151 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:27:06.152 DEBUG generator.generators.backend.GenController 104 genController - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:27:06.157 DEBUG generator.generators.backend.GenController 116 genController - 
+生成文件完毕
+F:\bx\gen\UserController.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:27:06.178 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:27:06.179 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:27:06.179 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:27:06.272 DEBUG generator.generators.front.GenAddJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:27:06.315 DEBUG generator.generators.front.GenAddJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\add.jsp
+2015-07-01 09:27:06.329 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:27:06.329 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:27:06.330 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:27:06.331 DEBUG generator.generators.front.GenEditJsp 57 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:27:06.338 DEBUG generator.generators.front.GenEditJsp 69 genFile - 
+生成文件完毕
+F:\bx\gen\update.jsp
+2015-07-01 09:27:06.346 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:27:06.346 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:27:06.347 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:27:06.360 DEBUG generator.generators.front.GenDetailJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:27:06.365 DEBUG generator.generators.front.GenDetailJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\detail.jsp
+2015-07-01 09:27:06.372 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:27:06.373 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:27:06.373 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:27:06.374 DEBUG generator.generators.front.GenListJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:27:06.376 DEBUG generator.generators.front.GenListJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.jsp
+2015-07-01 09:27:06.389 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:27:06.390 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:27:06.390 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:27:06.392 DEBUG generator.generators.front.GenListJs 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:27:06.396 DEBUG generator.generators.front.GenListJs 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.js
+2015-07-01 09:27:06.398 INFO  generator.generators.AllGenerator 32 main - 生成所有文件完毕！
+2015-07-01 09:30:49.684 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:30:49.686 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:30:49.686 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:30:49.702 DEBUG generator.generators.backend.GenDao 87 genDaoFile - 
+生成Dao完毕
+F:\bx\gen\UserDao.java
+2015-07-01 09:30:49.706 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:30:49.706 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:30:49.706 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:30:49.707 DEBUG generator.generators.backend.GenService 98 genInterface - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, controllerpackagename=com.bxb.modules.user.controller, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:30:49.708 DEBUG generator.generators.backend.GenService 110 genInterface - 
+生成文件完毕
+F:\bx\gen\IUserService.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:30:49.714 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:30:49.715 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:30:49.715 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:30:49.715 DEBUG generator.generators.backend.GenService 122 genService - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, controllerpackagename=com.bxb.modules.user.controller, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:30:51.683 DEBUG generator.generators.backend.GenService 134 genService - 
+生成文件完毕
+F:\bx\gen\UserService.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:30:51.757 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:30:51.758 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:30:51.758 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:30:51.759 DEBUG generator.generators.backend.GenController 104 genController - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:30:51.763 DEBUG generator.generators.backend.GenController 116 genController - 
+生成文件完毕
+F:\bx\gen\UserController.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:30:51.777 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:30:51.778 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:30:51.778 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:30:51.819 DEBUG generator.generators.front.GenAddJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:30:51.831 DEBUG generator.generators.front.GenAddJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\add.jsp
+2015-07-01 09:30:51.835 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:30:51.836 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:30:51.836 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:30:51.837 DEBUG generator.generators.front.GenEditJsp 57 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:30:51.839 DEBUG generator.generators.front.GenEditJsp 69 genFile - 
+生成文件完毕
+F:\bx\gen\update.jsp
+2015-07-01 09:30:51.841 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:30:51.841 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:30:51.841 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:30:51.842 DEBUG generator.generators.front.GenDetailJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:30:51.844 DEBUG generator.generators.front.GenDetailJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\detail.jsp
+2015-07-01 09:30:51.846 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:30:51.846 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:30:51.847 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:30:51.847 DEBUG generator.generators.front.GenListJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:30:51.848 DEBUG generator.generators.front.GenListJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.jsp
+2015-07-01 09:30:51.854 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:30:51.854 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:30:51.854 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:30:51.855 DEBUG generator.generators.front.GenListJs 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:30:51.856 DEBUG generator.generators.front.GenListJs 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.js
+2015-07-01 09:30:51.857 INFO  generator.generators.AllGenerator 30 genAllFiles - 生成所有文件完毕！
+2015-07-01 09:33:36.455 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:33:36.456 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:33:36.457 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:33:36.469 DEBUG generator.generators.backend.GenDao 87 genDaoFile - 
+生成Dao完毕
+F:\bx\gen\UserDao.java
+2015-07-01 09:33:36.473 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:33:36.474 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:33:36.474 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:33:36.475 DEBUG generator.generators.backend.GenService 98 genInterface - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, controllerpackagename=com.bxb.modules.user.controller, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:33:36.477 DEBUG generator.generators.backend.GenService 110 genInterface - 
+生成文件完毕
+F:\bx\gen\IUserService.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:33:36.488 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:33:36.488 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:33:36.488 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:33:36.489 DEBUG generator.generators.backend.GenService 122 genService - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, controllerpackagename=com.bxb.modules.user.controller, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:33:36.491 DEBUG generator.generators.backend.GenService 134 genService - 
+生成文件完毕
+F:\bx\gen\UserService.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:33:36.516 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:33:36.517 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:33:36.517 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:33:36.518 DEBUG generator.generators.backend.GenController 104 genController - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:33:36.521 DEBUG generator.generators.backend.GenController 116 genController - 
+生成文件完毕
+F:\bx\gen\UserController.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:33:36.530 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:33:36.531 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:33:36.531 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:33:36.574 DEBUG generator.generators.front.GenAddJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:33:36.587 DEBUG generator.generators.front.GenAddJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\add.jsp
+2015-07-01 09:33:36.593 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:33:36.595 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:33:36.595 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:33:36.596 DEBUG generator.generators.front.GenEditJsp 57 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:33:36.598 DEBUG generator.generators.front.GenEditJsp 69 genFile - 
+生成文件完毕
+F:\bx\gen\update.jsp
+2015-07-01 09:33:36.600 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:33:36.601 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:33:36.601 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:33:36.601 DEBUG generator.generators.front.GenDetailJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:33:36.603 DEBUG generator.generators.front.GenDetailJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\detail.jsp
+2015-07-01 09:33:36.606 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:33:36.606 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:33:36.606 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:33:36.607 DEBUG generator.generators.front.GenListJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:33:36.608 DEBUG generator.generators.front.GenListJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.jsp
+2015-07-01 09:33:36.615 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:33:36.615 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:33:36.616 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:33:36.617 DEBUG generator.generators.front.GenListJs 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:33:36.619 DEBUG generator.generators.front.GenListJs 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.js
+2015-07-01 09:33:36.620 INFO  generator.generators.AllGenerator 31 genAllFiles - 生成所有文件完毕！
+2015-07-01 09:33:36.620 INFO  generator.generators.AllGenerator 32 genAllFiles - 文件目录【F:\bx\gen】
+2015-07-01 09:34:20.464 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:20.466 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:20.466 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:20.480 DEBUG generator.generators.backend.GenDao 87 genDaoFile - 
+生成Dao完毕
+F:\bx\gen\UserDao.java
+2015-07-01 09:34:20.486 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:20.486 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:20.487 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:20.488 DEBUG generator.generators.backend.GenService 98 genInterface - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, controllerpackagename=com.bxb.modules.user.controller, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:34:20.491 DEBUG generator.generators.backend.GenService 110 genInterface - 
+生成文件完毕
+F:\bx\gen\IUserService.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:34:20.500 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:20.500 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:20.500 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:20.500 DEBUG generator.generators.backend.GenService 122 genService - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, controllerpackagename=com.bxb.modules.user.controller, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:34:20.502 DEBUG generator.generators.backend.GenService 134 genService - 
+生成文件完毕
+F:\bx\gen\UserService.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:34:20.523 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:20.523 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:20.523 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:20.524 DEBUG generator.generators.backend.GenController 104 genController - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:34:20.527 DEBUG generator.generators.backend.GenController 116 genController - 
+生成文件完毕
+F:\bx\gen\UserController.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:34:20.538 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:20.538 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:20.539 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:20.582 DEBUG generator.generators.front.GenAddJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:34:20.595 DEBUG generator.generators.front.GenAddJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\add.jsp
+2015-07-01 09:34:20.600 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:20.600 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:20.600 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:20.601 DEBUG generator.generators.front.GenEditJsp 57 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:34:20.603 DEBUG generator.generators.front.GenEditJsp 69 genFile - 
+生成文件完毕
+F:\bx\gen\update.jsp
+2015-07-01 09:34:20.606 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:20.606 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:20.606 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:20.607 DEBUG generator.generators.front.GenDetailJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:34:20.609 DEBUG generator.generators.front.GenDetailJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\detail.jsp
+2015-07-01 09:34:20.612 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:20.612 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:20.612 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:20.613 DEBUG generator.generators.front.GenListJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:34:20.614 DEBUG generator.generators.front.GenListJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.jsp
+2015-07-01 09:34:20.621 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:20.621 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:20.621 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:20.622 DEBUG generator.generators.front.GenListJs 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:34:20.625 DEBUG generator.generators.front.GenListJs 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.js
+2015-07-01 09:34:20.625 INFO  generator.generators.AllGenerator 31 genAllFiles - 生成所有文件完毕！
+2015-07-01 09:34:20.625 INFO  generator.generators.AllGenerator 32 genAllFiles - 文件目录【
+F:\bx\gen
+】
+2015-07-01 09:34:40.095 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:40.096 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:40.096 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:40.109 DEBUG generator.generators.backend.GenDao 87 genDaoFile - 
+生成Dao完毕
+F:\bx\gen\UserDao.java
+2015-07-01 09:34:40.115 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:40.115 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:40.115 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:40.116 DEBUG generator.generators.backend.GenService 98 genInterface - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, controllerpackagename=com.bxb.modules.user.controller, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:34:40.118 DEBUG generator.generators.backend.GenService 110 genInterface - 
+生成文件完毕
+F:\bx\gen\IUserService.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:34:40.129 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:40.129 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:40.129 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:40.129 DEBUG generator.generators.backend.GenService 122 genService - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, controllerpackagename=com.bxb.modules.user.controller, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:34:40.131 DEBUG generator.generators.backend.GenService 134 genService - 
+生成文件完毕
+F:\bx\gen\UserService.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:34:40.151 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:40.152 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:40.152 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:40.152 DEBUG generator.generators.backend.GenController 104 genController - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:34:40.157 DEBUG generator.generators.backend.GenController 116 genController - 
+生成文件完毕
+F:\bx\gen\UserController.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:34:40.167 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:40.168 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:40.168 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:40.212 DEBUG generator.generators.front.GenAddJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:34:40.224 DEBUG generator.generators.front.GenAddJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\add.jsp
+2015-07-01 09:34:40.230 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:40.230 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:40.230 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:40.231 DEBUG generator.generators.front.GenEditJsp 57 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:34:40.233 DEBUG generator.generators.front.GenEditJsp 69 genFile - 
+生成文件完毕
+F:\bx\gen\update.jsp
+2015-07-01 09:34:40.235 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:40.236 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:40.236 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:40.236 DEBUG generator.generators.front.GenDetailJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:34:40.238 DEBUG generator.generators.front.GenDetailJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\detail.jsp
+2015-07-01 09:34:40.241 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:40.241 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:40.241 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:40.242 DEBUG generator.generators.front.GenListJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:34:40.243 DEBUG generator.generators.front.GenListJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.jsp
+2015-07-01 09:34:40.248 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:34:40.249 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:34:40.249 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:34:40.249 DEBUG generator.generators.front.GenListJs 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:34:40.251 DEBUG generator.generators.front.GenListJs 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.js
+2015-07-01 09:34:40.252 INFO  generator.generators.AllGenerator 31 genAllFiles - 生成所有文件完毕！
+2015-07-01 09:34:40.252 INFO  generator.generators.AllGenerator 32 genAllFiles - 文件目录
+【
+F:\bx\gen
+】
+2015-07-01 09:35:33.678 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:35:33.680 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:35:33.680 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:35:33.695 DEBUG generator.generators.backend.GenDao 87 genDaoFile - 
+生成Dao完毕
+F:\bx\gen\UserDao.java
+2015-07-01 09:35:33.699 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:35:33.699 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:35:33.699 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:35:33.700 DEBUG generator.generators.backend.GenService 98 genInterface - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, controllerpackagename=com.bxb.modules.user.controller, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:35:33.701 DEBUG generator.generators.backend.GenService 110 genInterface - 
+生成文件完毕
+F:\bx\gen\IUserService.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:35:33.708 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:35:33.708 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:35:33.708 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:35:33.709 DEBUG generator.generators.backend.GenService 122 genService - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, controllerpackagename=com.bxb.modules.user.controller, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:35:33.710 DEBUG generator.generators.backend.GenService 134 genService - 
+生成文件完毕
+F:\bx\gen\UserService.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:35:33.730 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:35:33.731 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:35:33.731 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:35:33.732 DEBUG generator.generators.backend.GenController 104 genController - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:35:33.735 DEBUG generator.generators.backend.GenController 116 genController - 
+生成文件完毕
+F:\bx\gen\UserController.java
+文件目录:
+F:\bx\gen
+2015-07-01 09:35:33.745 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:35:33.746 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:35:33.746 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:35:33.790 DEBUG generator.generators.front.GenAddJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:35:33.802 DEBUG generator.generators.front.GenAddJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\add.jsp
+2015-07-01 09:35:33.812 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:35:33.812 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:35:33.812 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:35:33.814 DEBUG generator.generators.front.GenEditJsp 57 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:35:33.817 DEBUG generator.generators.front.GenEditJsp 69 genFile - 
+生成文件完毕
+F:\bx\gen\update.jsp
+2015-07-01 09:35:33.822 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:35:33.823 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:35:33.823 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:35:33.824 DEBUG generator.generators.front.GenDetailJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:35:33.826 DEBUG generator.generators.front.GenDetailJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\detail.jsp
+2015-07-01 09:35:33.829 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:35:33.830 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:35:33.830 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:35:33.830 DEBUG generator.generators.front.GenListJsp 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:35:33.832 DEBUG generator.generators.front.GenListJsp 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.jsp
+2015-07-01 09:35:33.837 DEBUG generator.util.NameGetter 43 getNames - bussnesspackagename[com.bxb.modules.user]
+2015-07-01 09:35:33.837 DEBUG generator.util.NameGetter 47 getNames - bussnessmodule[user]
+2015-07-01 09:35:33.837 DEBUG generator.util.NameGetter 85 getNames - servicezhujiename[userService]
+2015-07-01 09:35:33.838 DEBUG generator.generators.front.GenListJs 56 genFile - data
+{detailfilename=detail.jsp, servicename=UserService, controllerfilename=UserController.java, jspfoldername=admin, controllerpackagename=com.bxb.modules.user.controller, domainname=用户, daofilename=UserDao.java, addfilename=add.jsp, serviceinterfacename=IUserService, domainfullname=com.bxb.modules.user.model.User, fields=[{"no":0,"type":"string","title":"col_0","name":"名称_0"}, {"no":1,"type":"double","title":"col_1","name":"名称_1"}, {"no":2,"type":"int","title":"col_2","name":"名称_2"}, {"no":3,"type":"string","title":"col_3","name":"名称_3"}, {"no":4,"type":"string","title":"col_4","name":"名称_4"}], serviceinterfacefullname=com.bxb.modules.user.service.IUserService, daozhujiename=userdao, updatefilename=update.jsp, servicepackagename=com.bxb.modules.user.service, bussnessmodule=user, servicefilename=UserService.java, collectionname=user, listjsfilename=list.js, bussnesdomainnameL=user, bussnesspackagename=com.bxb.modules.user, servicezhujiename=userService, listfilename=list.jsp, servicefullname=com.bxb.modules.user.service.UserService, daofullname=com.bxb.modules.user.dao.UserDao, daopackagename=com.bxb.modules.user.dao, bussnesdomainname=User, daoname=UserDao, controllerparentpath=backend, controllername=UserController, serviceinterfacefilename=IUserService.java}
+2015-07-01 09:35:33.840 DEBUG generator.generators.front.GenListJs 68 genFile - 
+生成文件完毕
+F:\bx\gen\list.js
+2015-07-01 09:35:33.841 INFO  generator.generators.AllGenerator 31 genAllFiles - 生成所有文件完毕！
+2015-07-01 09:35:33.841 INFO  generator.generators.AllGenerator 32 genAllFiles - 文件目录
+F:\bx\gen
+
