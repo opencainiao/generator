@@ -28,7 +28,7 @@ public class GenEntityFromModel {
 		colRmks = fieldInfo.get("COLRMKS");// 列名中文说明
 
 		classname = model.getClassname();
-		modulename = model.getModule();
+		modulename = model.getClassmodule();
 
 		String content = parse(colnames, colTypes);
 		try {
@@ -138,10 +138,10 @@ public class GenEntityFromModel {
 	public static void main(String[] args) {
 
 		EntityModel model = new EntityModel();
-		model.setModule("user");
+		model.setClassmodule("user");
 		model.setClassname("User");
-		model.setClassRmk("用户");
-
+		model.setClassrmk("用户");
+		
 		model.setFields(EntityModel.getFieldInfoForTest());
 
 		GenEntityFromModel.genEntityFile(model);

@@ -10,41 +10,41 @@ import org.mou.common.JsonUtil;
  */
 public class Field {
 
-	private int no; // 序号
-	private String type; // 类型
-	private String title; // 字段名
-	private String name; // 字段中文说明
+	private String coltitle; // 字段名
+	private String colname; // 字段中文说明
+	private int colorder; // 序号
+	private String coltype; // 类型
 
-	public int getNo() {
-		return no;
+	public String getColtitle() {
+		return coltitle;
 	}
 
-	public void setNo(int no) {
-		this.no = no;
+	public void setColtitle(String coltitle) {
+		this.coltitle = coltitle;
 	}
 
-	public String getType() {
-		return type;
+	public String getColname() {
+		return colname;
 	}
 
-	public void setType(String type) {
-		this.type = type;
+	public void setColname(String colname) {
+		this.colname = colname;
 	}
 
-	public String getTitle() {
-		return title;
+	public int getColorder() {
+		return colorder;
 	}
 
-	public void setTitle(String title) {
-		this.title = title;
+	public void setColorder(int colorder) {
+		this.colorder = colorder;
 	}
 
-	public String getName() {
-		return name;
+	public String getColtype() {
+		return coltype;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setColtype(String coltype) {
+		this.coltype = coltype;
 	}
 
 	@Override

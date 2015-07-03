@@ -23,7 +23,7 @@ public class NameGetter {
 
 		Map<String, String> objMap = new HashMap<String, String>();
 
-		String module = model.getModule();// 模块名
+		String module = model.getClassmodule();// 模块名
 		String classname = StringUtils.capitalize(model.getClassname()); // 类名
 
 		// com.bxb.modules.user.model
@@ -202,9 +202,9 @@ public class NameGetter {
 		// System.out.println(getNames(SysConst.class));
 
 		EntityModel model = new EntityModel();
-		model.setModule("user");
+		model.setClassmodule("user");
 		model.setClassname("User");
-		model.setClassRmk("用户");
+		model.setClassrmk("用户");
 		
 		System.out.println(getNames(model));
 	}

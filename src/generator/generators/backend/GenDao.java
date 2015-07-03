@@ -92,10 +92,10 @@ public class GenDao {
 		// genDaoFile(SysConst.class);
 
 		EntityModel model = new EntityModel();
-		model.setModule("user");
+		model.setClassmodule("user");
 		model.setClassname("User");
-		model.setClassRmk("用户");
-
+		model.setClassrmk("用户");
+		
 		model.setFields(EntityModel.getFieldInfoForTest());
 		
 		genDaoFile(model);

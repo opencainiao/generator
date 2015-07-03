@@ -19,9 +19,9 @@ public class AllGenerator {
 		String jspfoldername = "admin";
 		String controllerparentpath = "backend";
 
-		BackendGenerator.genBackend(model, jspfoldername, model.getClassRmk(),
+		BackendGenerator.genBackend(model, jspfoldername, model.getClassrmk(),
 				controllerparentpath);
-		FrontGenerator.genFront(model, jspfoldername, model.getClassRmk(),
+		FrontGenerator.genFront(model, jspfoldername, model.getClassrmk(),
 				controllerparentpath);
 
 		logger.info("生成所有文件完毕！");
@@ -44,17 +44,17 @@ public class AllGenerator {
 	 */
 	private static EntityModel createModel() {
 		EntityModel model = new EntityModel();
-		model.setModule("user");
+		model.setClassmodule("user");
 		model.setClassname("User");
-		model.setClassRmk("用户");
-
+		model.setClassmodule("用户");
+		
 		List<Field> fields = new ArrayList<Field>();
 
 		for (int i = 0; i < 5; ++i) {
 			Field field = new Field();
-			field.setNo(i);
-			field.setName("名称_" + i);
-			field.setTitle("col_" + i);
+			field.setColorder(i);
+			field.setColname("名称_" + i);
+			field.setColtitle("col_" + i);
 			EntityModel.setFieldType(field, i);
 
 			fields.add(field);

@@ -41,7 +41,7 @@
 				caption : '属性',
 				initRows : 1,
 				columns : [ {
-					name : 'title',
+					name : 'coltitle',
 					display : '英文名',
 					type : 'text',
 					ctrlAttr : {
@@ -51,7 +51,7 @@
 						width : '160px'
 					}
 				}, {
-					name : 'name',
+					name : 'colname',
 					display : '中文名',
 					type : 'text',
 					ctrlAttr : {
@@ -61,7 +61,7 @@
 						width : '300px'
 					}
 				}, {
-					name : 'type',
+					name : 'coltype',
 					display : '数据类型',
 					type : 'select',
 					ctrlOptions : {
@@ -109,7 +109,7 @@
 
 				$(this).on('keyup', function(e) {
 					
-					if ($(this).attr("id") == "module" ){
+					if ($(this).attr("id") == "classmodule" ){
 						
 						// 禁止输入空格
 						$(this).val($(this).val().replace(/(^\s+)|(\s+$)/g, ""));
@@ -137,7 +137,7 @@
 			
 			var validate = function() {
 
-				var val = $("#module").val().trim();
+				var val = $("#classmodule").val().trim();
 				if (val == "") {
 					alert("模块名不能为空");
 					return false
@@ -216,8 +216,8 @@
 			</div>
 			<div class="panel-body">
 				<div class="form-group">
-					<label for="module">模块名</label> 
-					<input  id="module" type="text" name="module" class="form-control col-sm-5"
+					<label for="classmodule">模块名</label> 
+					<input  id="classmodule" type="text" name="classmodule" class="form-control col-sm-5"
 							placeholder="模块名" err-info="不允许为空" />
 				</div>
 				<div class="form-group">

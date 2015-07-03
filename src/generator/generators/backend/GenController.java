@@ -134,13 +134,13 @@ public class GenController {
 		// genController(SysConst.class,"admin","常量","backend");
 
 		EntityModel model = new EntityModel();
-		model.setModule("user");
+		model.setClassmodule("user");
 		model.setClassname("User");
-		model.setClassRmk("用户");
+		model.setClassrmk("用户");
 
 		model.setFields(EntityModel.getFieldInfoForTest());
 
-		genController(model, "admin", model.getClassRmk(), "backend");
+		genController(model, "admin", model.getClassrmk(), "backend");
 
 	}
 

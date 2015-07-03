@@ -85,14 +85,14 @@ public class GenEditJsp {
 	public static void main(String[] args) {
 
 		EntityModel model = new EntityModel();
-		model.setModule("user");
+		model.setClassmodule("user");
 		model.setClassname("User");
-		model.setClassRmk("用户");
-
+		model.setClassrmk("用户");
+		
 		model.setFields(EntityModel.getFieldInfoForTest());
 
 		try {
-			genFile(model, "admin", model.getClassRmk(), "backend");
+			genFile(model, "admin", model.getClassrmk(), "backend");
 		} catch (IOException | TemplateException e) {
 			e.printStackTrace();
 		}

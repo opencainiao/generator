@@ -45,7 +45,7 @@ public class FrontGenerator {
 
 		EntityModel model = createModel();
 
-		FrontGenerator.genFront(model, "admin", model.getClassRmk(), "backend");
+		FrontGenerator.genFront(model, "admin", model.getClassrmk(), "backend");
 
 	}
 
@@ -56,17 +56,17 @@ public class FrontGenerator {
 	 */
 	private static EntityModel createModel() {
 		EntityModel model = new EntityModel();
-		model.setModule("user");
+		model.setClassmodule("user");
 		model.setClassname("User");
-		model.setClassRmk("用户");
-
+		model.setClassmodule("用户");
+		
 		List<Field> fields = new ArrayList<Field>();
 
 		for (int i = 0; i < 5; ++i) {
 			Field field = new Field();
-			field.setNo(i);
-			field.setName("名称_" + i);
-			field.setTitle("col_" + i);
+			field.setColorder(i);
+			field.setColname("名称_" + i);
+			field.setColtitle("col_" + i);
 			EntityModel.setFieldType(field, i);
 
 			fields.add(field);

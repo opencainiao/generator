@@ -1,5 +1,6 @@
 package controller;
 
+import generator.db.ITableService;
 import generator.generators.AllGenerator;
 import generator.model.EntityModel;
 import generator.model.Field;
@@ -15,6 +16,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.commons.lang3.StringUtils;
@@ -39,6 +41,9 @@ public class GenController extends BaseController {
 
 	private static final Logger logger = LogManager
 			.getLogger(GenController.class);
+
+	@Resource(name = "iTableService")
+	private ITableService iTableService;
 
 	/****
 	 * 进入前端查询单位页面 <br>
@@ -67,14 +72,15 @@ public class GenController extends BaseController {
 
 		try {
 			List<String> errors = new ArrayList<String>();
-			
-			EntityModel entityModel = createModel(request ,errors);
 
-			if (!errors.isEmpty()){
+			EntityModel entityModel = createModel(request, errors);
+
+			if (!errors.isEmpty()) {
 				return this.handleValidateFalse(errors.toString());
 			}
-			
-			AllGenerator.genAllFiles(entityModel);
+
+			iTableService.savaTable(entityModel);
+			//AllGenerator.genAllFiles(entityModel);
 
 			RequestResult rr = new RequestResult();
 			rr.setSuccess(true);
@@ -117,11 +123,11 @@ public class GenController extends BaseController {
 			if (ValidateUtil.isNumeric(orderno)) {
 				setKeysOrdered.add(orderno);
 
-				if (key.indexOf("title") >= 0) {
+				if (key.indexOf("coltitle") >= 0) {
 					titleMap.put(orderno, params.get(key));
-				} else if (key.indexOf("name") >= 0) {
+				} else if (key.indexOf("colname") >= 0) {
 					nameMap.put(orderno, params.get(key));
-				} else if (key.indexOf("type") >= 0) {
+				} else if (key.indexOf("coltype") >= 0) {
 					typeMap.put(orderno, params.get(key));
 				}
 			}
@@ -143,26 +149,26 @@ public class GenController extends BaseController {
 
 			int no = Integer.parseInt(orderMap.get(ordernum));
 			orderSet.add(no);
-			field.setNo(no);
-			
+			field.setColorder(no);
+
 			StringBuffer sb = new StringBuffer();
 
 			String title = titleMap.get(ordernum);
 			if (StringUtil.isEmpty(title)) {
 				sb.append("英文名不能为空,");
-			}
-			if (!ValidateUtil.isOnlyCharacter(title)){
+			}else if (!ValidateUtil.isOnlyCharacter(title)) {
 				sb.append("英文名只能为字母,");
 			}
-			field.setTitle(titleMap.get(ordernum));
+			field.setColtitle(titleMap.get(ordernum));
 
 			if (StringUtil.isEmpty(nameMap.get(ordernum))) {
 				sb.append("中文名不能为空,");
 			}
-			field.setName(nameMap.get(ordernum));
-			
-			if (sb.length()>0){
-				errors.add("【" + no + "】" + sb.substring(0, sb.length()-1) + "\n");
+			field.setColname(nameMap.get(ordernum));
+
+			if (sb.length() > 0) {
+				errors.add("【" + no + "】" + sb.substring(0, sb.length() - 1)
+						+ "\n");
 			}
 
 			EntityModel.setFieldType(field, typeMap.get(ordernum));
@@ -180,9 +186,9 @@ public class GenController extends BaseController {
 		}
 
 		EntityModel model = new EntityModel();
-		model.setModule(params.get("module").toLowerCase());
+		model.setClassmodule(params.get("classmodule").toLowerCase());
 		model.setClassname(StringUtils.capitalize(params.get("classname")));
-		model.setClassRmk(params.get("classrmk"));
+		model.setClassrmk(params.get("classrmk"));
 
 		model.setFields(fields);
 

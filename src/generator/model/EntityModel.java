@@ -15,10 +15,9 @@ import org.mou.common.JsonUtil;
  */
 public class EntityModel {
 
-	private String module;// 模块名
-	private String unitname; // 模块内的单元名
+	private String classmodule;// 模块名
 	private String classname; // 类名
-	private String classRmk;// 类说明
+	private String classrmk;// 类说明
 	private List<Field> fields;// 字段信息
 
 	public String getClassname() {
@@ -53,11 +52,12 @@ public class EntityModel {
 		for (int i = 0; i < fields.size(); ++i) {
 			Field field = fields.get(i);
 
-			int no = field.getNo();
+			int no = field.getColorder();
 
-			colNames[i] = field.getTitle();
-			colTypes[i] = field.getType();
-			colRmks[i] = field.getName();
+			colNames[i] = field.getColtitle();
+			colRmks[i] = field.getColname();
+			colTypes[i] = field.getColtype();
+
 		}
 
 		fieldInfo.put("COLNAMES", colNames);
@@ -82,9 +82,9 @@ public class EntityModel {
 
 		for (int i = 0; i < 5; ++i) {
 			Field field = new Field();
-			field.setNo(i);
-			field.setName("名称_" + i);
-			field.setTitle("col_" + i);
+			field.setColorder(i);
+			field.setColname("名称_" + i);
+			field.setColtitle("col_" + i);
 			setFieldType(field, i);
 
 			fields.add(field);
@@ -97,61 +97,53 @@ public class EntityModel {
 		String typeL = type.toLowerCase();
 		switch (typeL) {
 		case "string":
-			field.setType("string");
+			field.setColtype("string");
 			break;
 		case "double":
-			field.setType("double");
+			field.setColtype("double");
 			break;
 		case "int":
-			field.setType("int");
+			field.setColtype("int");
 			break;
 		default:
-			field.setType("string");
+			field.setColtype("string");
 			break;
 		}
 	}
-	
+
 	public static void setFieldType(Field field, int i) {
 
 		int mol = i % 5;
 
 		switch (mol) {
 		case 0:
-			field.setType("string");
+			field.setColtype("string");
 			break;
 		case 1:
-			field.setType("double");
+			field.setColtype("double");
 			break;
 		case 2:
-			field.setType("int");
+			field.setColtype("int");
 			break;
 		default:
-			field.setType("string");
+			field.setColtype("string");
 			break;
 		}
 	}
 
-	public String getUnitname() {
-		return unitname;
+	public String getClassmodule() {
+		return classmodule;
 	}
 
-	public void setUnitname(String unitname) {
-		this.unitname = unitname;
+	public void setClassmodule(String classmodule) {
+		this.classmodule = classmodule;
 	}
 
-	public String getModule() {
-		return module;
+	public String getClassrmk() {
+		return classrmk;
 	}
 
-	public void setModule(String module) {
-		this.module = module;
-	}
-
-	public String getClassRmk() {
-		return classRmk;
-	}
-
-	public void setClassRmk(String classRmk) {
-		this.classRmk = classRmk;
+	public void setClassrmk(String classrmk) {
+		this.classrmk = classrmk;
 	}
 }
