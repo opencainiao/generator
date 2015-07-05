@@ -39,9 +39,9 @@ public class GenListJsp {
 	 * @throws TemplateException
 	 */
 	public static void genFile(EntityModel model, String jspfoldername,
-			String domainname, String controllerparentpath)
-			throws IOException, TemplateException {
-		
+			String domainname, String controllerparentpath) throws IOException,
+			TemplateException {
+
 		Configuration cfg = ConfigurationManager.getConfiguration();
 		Template temp = cfg.getTemplate("list.tpl");
 
@@ -51,12 +51,12 @@ public class GenListJsp {
 		data.put("domainname", domainname);
 		data.put("controllerparentpath", controllerparentpath);
 		data.put("fields", model.getFields());
-		
 
 		logger.debug("data\n{}", data);
 
-		String filename = ConfigurationManager.getGenFileDir() + "\\"
-				+ data.get("listfilename");
+		String filename = ConfigurationManager.getGenFileDir(
+				model.getClassmodule(), model.getClassname())
+				+ File.separator + data.get("listfilename");
 
 		File file = new File(filename);
 		FileUtil.ensureNewFile(file);
@@ -87,7 +87,7 @@ public class GenListJsp {
 		model.setClassmodule("user");
 		model.setClassname("User");
 		model.setClassrmk("用户");
-		
+
 		model.setFields(EntityModel.getFieldInfoForTest());
 
 		try {

@@ -25,7 +25,7 @@ public class AllGenerator {
 				controllerparentpath);
 
 		logger.info("生成所有文件完毕！");
-		logger.info("文件目录\n{}\n", ConfigurationManager.getGenFileDir());
+		logger.info("文件目录\n{}\n", ConfigurationManager.getGenFileDir(model.getClassmodule(), model.getClassname()));
 
 	}
 
@@ -47,7 +47,7 @@ public class AllGenerator {
 		model.setClassmodule("user");
 		model.setClassname("User");
 		model.setClassmodule("用户");
-		
+
 		List<Field> fields = new ArrayList<Field>();
 
 		for (int i = 0; i < 5; ++i) {

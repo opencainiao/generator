@@ -22,11 +22,11 @@
     <sf:form modelAttribute="${bussnesdomainnameL}" class="form-horizontal center-block " style="width: 500px">
        <#list fields as model>
   			<div class="form-group ">
-	            <label for="${model.title}" class="col-sm-3 control-label">
-	                ${model.name}
+	            <label for="${model.coltitle}" class="col-sm-3 control-label">
+	                ${model.colname}
 	            </label>
 	            <div class="col-sm-8">
-	                <input type="text" class="form-control" id="${model.title}" name="${model.title}" value="${r'${'}${bussnesdomainnameL}.${model.title}}"  placeholder="" >
+	                <input type="text" class="form-control" id="${model.coltitle}" name="${model.coltitle}" value="${r'${'}${bussnesdomainnameL}.${model.coltitle}}"  placeholder="" >
 	            </div>
 	        </div>
       	</#list>

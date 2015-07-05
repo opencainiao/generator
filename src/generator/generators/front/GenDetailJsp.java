@@ -55,8 +55,9 @@ public class GenDetailJsp {
 
 		logger.debug("data\n{}", data);
 
-		String filename = ConfigurationManager.getGenFileDir() + "\\"
-				+ data.get("detailfilename");
+		String filename = ConfigurationManager.getGenFileDir(
+				model.getClassmodule(), model.getClassname())
+				+ File.separator + data.get("detailfilename");
 
 		File file = new File(filename);
 		FileUtil.ensureNewFile(file);
@@ -87,7 +88,7 @@ public class GenDetailJsp {
 		model.setClassmodule("user");
 		model.setClassname("User");
 		model.setClassrmk("用户");
-		
+
 		model.setFields(EntityModel.getFieldInfoForTest());
 
 		try {

@@ -55,8 +55,9 @@ public class GenAddJsp {
 
 		logger.debug("data\n{}", data);
 
-		String filename = ConfigurationManager.getGenFileDir() + "\\"
-				+ data.get("addfilename");
+		String filename = ConfigurationManager.getGenFileDir(
+				model.getClassmodule(), model.getClassname())
+				+ File.separator + data.get("addfilename");
 
 		File file = new File(filename);
 		FileUtil.ensureNewFile(file);
@@ -87,7 +88,7 @@ public class GenAddJsp {
 		model.setClassmodule("user");
 		model.setClassname("User");
 		model.setClassrmk("用户");
-		
+
 		model.setFields(EntityModel.getFieldInfoForTest());
 
 		try {

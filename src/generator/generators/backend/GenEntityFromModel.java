@@ -21,7 +21,8 @@ public class GenEntityFromModel {
 
 	public static void genEntityFile(EntityModel model) {
 
-		Map<String, String[]> fieldInfo = EntityModel.genFieldInfo(model.getFields());
+		Map<String, String[]> fieldInfo = EntityModel.genFieldInfo(model
+				.getFields());
 
 		colnames = fieldInfo.get("COLNAMES"); // 列名数组
 		colTypes = fieldInfo.get("COLTYPES"); // 列名类型数组
@@ -33,8 +34,9 @@ public class GenEntityFromModel {
 		String content = parse(colnames, colTypes);
 		try {
 
-			String filename = ConfigurationManager.getGenFileDir() + "\\"
-					+ initcap(classname) + ".java";
+			String filename = ConfigurationManager.getGenFileDir(
+					model.getClassmodule(), model.getClassname())
+					+ "\\" + initcap(classname) + ".java";
 
 			FileWriter fw = new FileWriter(filename);
 			PrintWriter pw = new PrintWriter(fw);
@@ -141,7 +143,7 @@ public class GenEntityFromModel {
 		model.setClassmodule("user");
 		model.setClassname("User");
 		model.setClassrmk("用户");
-		
+
 		model.setFields(EntityModel.getFieldInfoForTest());
 
 		GenEntityFromModel.genEntityFile(model);

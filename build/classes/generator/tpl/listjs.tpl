@@ -157,8 +157,8 @@ var data_manage = {
 		}, 
 		<#list fields as model>  
 			{
-				display : '${model.name}',
-				name : '${model.title}',
+				display : '${model.colname}',
+				name : '${model.coltitle}',
 				width : 120
 		},
       	</#list>

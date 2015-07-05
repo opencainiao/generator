@@ -40,55 +40,6 @@ public class GenController {
 	 * @throws IOException
 	 * @throws TemplateException
 	 */
-	public static void genController(Class clazz, String jspfoldername,
-			String domainname, String controllerparentpath) throws IOException,
-			TemplateException {
-		Configuration cfg = ConfigurationManager.getConfiguration();
-		Template temp = cfg.getTemplate("Controller.tpl");
-
-		Map data = getData(clazz);
-
-		data.put("jspfoldername", jspfoldername);
-		data.put("domainname", domainname);
-		data.put("controllerparentpath", controllerparentpath);
-
-		logger.debug("data\n{}", data);
-
-		String filename = ConfigurationManager.getGenFileDir() + "\\"
-				+ data.get("controllerfilename");
-
-		File file = new File(filename);
-		FileUtil.ensureNewFile(file);
-
-		// Writer out = new OutputStreamWriter(System.out);
-		Writer out = new OutputStreamWriter(new FileOutputStream(file));
-		temp.process(data, out);
-
-		logger.debug("\n生成文件完毕\n{}", filename);
-
-	}
-
-	/****
-	 * @param clazz
-	 */
-	public static Map getData(Class clazz) {
-
-		Map data = NameGetter.getNames(clazz);
-
-		return data;
-	}
-
-	/****
-	 * 
-	 * 
-	 * @param clazz
-	 * @param jspfoldername
-	 *            jsp文件存放的父目录名称
-	 * @param domainname
-	 *            表的中文名
-	 * @throws IOException
-	 * @throws TemplateException
-	 */
 	public static void genController(EntityModel model, String jspfoldername,
 			String domainname, String controllerparentpath) throws IOException,
 			TemplateException {
@@ -103,8 +54,9 @@ public class GenController {
 
 		logger.debug("data\n{}", data);
 
-		String filename = ConfigurationManager.getGenFileDir() + "\\"
-				+ data.get("controllerfilename");
+		String filename = ConfigurationManager.getGenFileDir(
+				model.getClassmodule(), model.getClassname())
+				+ File.separator + data.get("controllerfilename");
 
 		File file = new File(filename);
 		FileUtil.ensureNewFile(file);

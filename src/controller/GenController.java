@@ -80,11 +80,12 @@ public class GenController extends BaseController {
 			}
 
 			iTableService.savaTable(entityModel);
-			//AllGenerator.genAllFiles(entityModel);
+			AllGenerator.genAllFiles(entityModel);
 
 			RequestResult rr = new RequestResult();
 			rr.setSuccess(true);
-			rr.setMessage(ConfigurationManager.getGenFileDir());
+			rr.setMessage(ConfigurationManager.getGenFileDir(
+					entityModel.getClassmodule(), entityModel.getClassname()));
 			return rr;
 		} catch (Exception e) {
 			return this.handleException(e);
@@ -156,7 +157,7 @@ public class GenController extends BaseController {
 			String title = titleMap.get(ordernum);
 			if (StringUtil.isEmpty(title)) {
 				sb.append("英文名不能为空,");
-			}else if (!ValidateUtil.isOnlyCharacter(title)) {
+			} else if (!ValidateUtil.isOnlyCharacter(title)) {
 				sb.append("英文名只能为字母,");
 			}
 			field.setColtitle(titleMap.get(ordernum));

@@ -17,10 +17,10 @@
 		<div class="col form-horizontal center-block " style="width: 400px">
 			<#list fields as model>
 				<div class="form-group ">
-					<label for="${model.title}" class="col-sm-3 control-label"> ${model.name} </label>
+					<label for="${model.coltitle}" class="col-sm-3 control-label"> ${model.colname} </label>
 					<div>
-						<input type="text" class="form-control" id="${model.title}"
-							name="${model.title}" value="${r'${'}${bussnesdomainnameL}.${model.title}}" readonly>
+						<input type="text" class="form-control" id="${model.coltitle}"
+							name="${model.coltitle}" value="${r'${'}${bussnesdomainnameL}.${model.coltitle}}" readonly>
 					</div>
 				</div>
 	      	</#list>

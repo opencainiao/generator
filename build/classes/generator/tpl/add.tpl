@@ -27,11 +27,11 @@
     	
       	<#list fields as model>  
       		<div class="form-group ">
-	            <label for="${model.title}" class="col-sm-2 control-label">
-	                ${model.name}
+	            <label for="${model.coltitle}" class="col-sm-2 control-label">
+	                ${model.colname}
 	            </label>
 	            <div class="col-sm-5">
-	                <input type="text" class="form-control" id="${model.title}" name="${model.title}" placeholder="" >
+	                <input type="text" class="form-control" id="${model.coltitle}" name="${model.coltitle}" placeholder="" >
 	            </div>
 	        </div>
       	</#list>

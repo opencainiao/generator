@@ -27,36 +27,6 @@ import generator.util.NameGetter;
 public class GenDao {
 	private static final Logger logger = LogManager.getLogger(GenDao.class);
 
-	public static void genDaoFile(Class clazz) throws IOException,
-			TemplateException {
-		Configuration cfg = ConfigurationManager.getConfiguration();
-		Template temp = cfg.getTemplate("dao.tpl");
-
-		Map data = getData(clazz);
-
-		String filename = ConfigurationManager.getGenFileDir() + "\\"
-				+ data.get("daofilename");
-
-		File file = new File(filename);
-		FileUtil.ensureNewFile(file);
-
-		// Writer out = new OutputStreamWriter(System.out);
-		Writer out = new OutputStreamWriter(new FileOutputStream(file));
-		temp.process(data, out);
-
-		logger.debug("\n生成Dao完毕\n{}", filename);
-	}
-
-	/****
-	 * 生成一个类对应的Dao类
-	 * 
-	 * @param clazz
-	 */
-	public static Map getData(Class clazz) {
-
-		return NameGetter.getNames(clazz);
-	}
-
 	/****
 	 * 生成一个类对应的Dao类
 	 * 
@@ -74,8 +44,9 @@ public class GenDao {
 
 		Map data = getData(model);
 
-		String filename = ConfigurationManager.getGenFileDir() + "\\"
-				+ data.get("daofilename");
+		String filename = ConfigurationManager.getGenFileDir(
+				model.getClassmodule(), model.getClassname())
+				+ File.separator + data.get("daofilename");
 
 		File file = new File(filename);
 		FileUtil.ensureNewFile(file);
@@ -95,9 +66,9 @@ public class GenDao {
 		model.setClassmodule("user");
 		model.setClassname("User");
 		model.setClassrmk("用户");
-		
+
 		model.setFields(EntityModel.getFieldInfoForTest());
-		
+
 		genDaoFile(model);
 	}
 

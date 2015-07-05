@@ -10,7 +10,8 @@ public class ConfigurationManager {
 
 	private static Configuration cfg;
 	private static String tmpDir; // 模板目录
-	private static String genFileDir; // 文件生成目录
+	private static String genFolder; // 生成文件的总体目录
+	// private static String genFileDir; // 文件生成目录
 
 	static {
 
@@ -21,9 +22,10 @@ public class ConfigurationManager {
 
 		tmpDir = classDir + "\\generator\\tpl";
 
-		genFileDir = "F:\\bx\\gen";
+		// genFolder = "F:\\bx\\gen";
+		genFolder = "F:" + File.separator + "gen";
 
-		FileUtil.createDir(genFileDir);
+		FileUtil.createDir(genFolder);
 	}
 
 	public static Configuration getConfiguration() throws IOException {
@@ -63,11 +65,26 @@ public class ConfigurationManager {
 		ConfigurationManager.tmpDir = tmpDir;
 	}
 
-	public static String getGenFileDir() {
+	public static String getGenFileDir(String module, String classname) {
+
+		String genFileDir = getGenFolder() + File.separator + module
+				+ File.separator + classname;
+		boolean result = FileUtil.createDir(genFileDir);
+
+		if (result) {
+			System.out.println("目录创建成功【" + genFileDir + "】");
+		}else{
+			System.out.println("目录创建失败！！！！【" + genFileDir + "】");
+		}
+
 		return genFileDir;
 	}
 
-	public static void setGenFileDir(String genFileDir) {
-		ConfigurationManager.genFileDir = genFileDir;
+	public static String getGenFolder() {
+		return genFolder;
+	}
+
+	public static void setGenFolder(String genFolder) {
+		ConfigurationManager.genFolder = genFolder;
 	}
 }
