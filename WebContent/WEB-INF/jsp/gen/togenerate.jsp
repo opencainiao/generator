@@ -31,7 +31,14 @@
 	src="<%=request.getContextPath()%>/resources/layer/extend/layer.ext.js"></script>
 <script type="text/javascript"
 	src="<%=request.getContextPath()%>/resources/js/jquery.nbq.ux.js"></script>
+<style>
 
+label{
+}
+div.form-group > input{
+	width: 300px
+}
+</style>
 </head>
 <body>
 	<script id="jsSource" type="text/javascript">
@@ -209,26 +216,32 @@
 			});
 		});
 	</script>
+	
+	<ul class="breadcrumb" style="margin: 15px">
+	    <li><a href="<%=request.getContextPath()%>/list">类管理</a> <span class="divider"></span></li>
+	    <li class="active">添加新类</li>
+	</ul>
+
 	<form action="" method="post">
 		<div class="panel panel-primary" style="margin: 20px;">
 			<div class="panel-heading">
-				<h3 class="panel-title">材料类型信息</h3>
+				<h3 class="panel-title">类信息</h3>
 			</div>
 			<div class="panel-body">
 				<div class="form-group">
-					<label for="classmodule">模块名</label> 
-					<input  id="classmodule" type="text" name="classmodule" class="form-control col-sm-5"
-							placeholder="模块名" err-info="不允许为空" />
+					<label for="classmodule"  style="width: 100px;">模块名</label> 
+					<input  id="classmodule" type="text" name="classmodule" 
+							placeholder="模块名" err-info="不允许为空" style=""/>
 				</div>
 				<div class="form-group">
-					<label for="classname">类名</label> 
-					<input type="text" name="classname" class="form-control col-sm-5 "  id="classname"
+					<label for="classname"  style="width: 100px;">类名</label> 
+					<input type="text" name="classname"   id="classname"
 						placeholder="类名">
 				</div>
 				
 				<div class="form-group">
-					<label for="classrmk">类中文名</label> 
-					<input type="text" name="classrmk" class="form-control col-sm-5 "  id="classrmk"
+					<label for="classrmk"  style="width: 100px;">类中文名</label> 
+					<input type="text" name="classrmk"  id="classrmk"
 						placeholder="类中文名">
 				</div>
 			</div>

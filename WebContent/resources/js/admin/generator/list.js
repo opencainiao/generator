@@ -3,7 +3,7 @@
 	data_manage.init();
 
 	$("#btn_add").click(function() {
-		var url_to = $.getSitePath() + '/add';
+		var url_to = $.getSitePath() + '/genhome';
 
 		window.location.href = url_to;
 	});
