@@ -20,7 +20,7 @@
 		src="<%=request.getContextPath()%>/resources/js/mou_grid.js"></script>
 </head>
 
-<body>
+<body style="padding: 15px;">
 	<input type="hidden" name="ctx" value="<%=request.getContextPath()%>" />
 
 	<ul class="breadcrumb">

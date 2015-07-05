@@ -112,7 +112,7 @@ var data_manage = {
 		nowrap : true, // 是否不换行
 		autoload : true,// 自动加载
 		usepager : false,
-		title : '系统常量类型列表',
+		title : '系统类信息',
 		useRp : true,
 		rp : 20, // 默认分页条数
 		pagestat : '共有{total}条记录，显示{from} - {to}条记录',
