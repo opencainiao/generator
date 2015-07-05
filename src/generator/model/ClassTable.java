@@ -6,16 +6,6 @@ public class ClassTable {
 	private String classname; // 类名
 	private String classrmk;// 类说明
 
-	public static ClassTable genClassTable(EntityModel model) {
-		
-		ClassTable ct = new ClassTable();
-		ct.setClassmodule(model.getClassmodule());
-		ct.setClassname(model.getClassname());
-		ct.setClassrmk(model.getClassrmk());
-
-		return ct;
-	}
-
 	public String getClassmodule() {
 		return classmodule;
 	}

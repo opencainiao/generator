@@ -2,11 +2,13 @@ package controller;
 
 import generator.db.ITableService;
 import generator.generators.AllGenerator;
+import generator.model.ClassTable;
 import generator.model.EntityModel;
 import generator.model.Field;
 import generator.model.RequestResult;
 import generator.util.ConfigurationManager;
 import generator.util.HttpServletRequestUtil;
+import generator.util.PageSearchResultHandler;
 import generator.util.ValidateUtil;
 
 import java.util.ArrayList;
@@ -44,6 +46,48 @@ public class GenController extends BaseController {
 
 	@Resource(name = "iTableService")
 	private ITableService iTableService;
+
+	/****
+	 * 查看所有系统实体类 信息
+	 * 
+	 * @param model
+	 * @return
+	 */
+	@RequestMapping(value = "/list", method = RequestMethod.GET)
+	public String list(Model model) {
+
+		return "/gen/list";
+	}
+
+	/****
+	 * 查询系统实体类信息（条件查询，查询多笔，按照系统实体类码或名称）
+	 * 
+	 * @param model
+	 * @param request
+	 * @return
+	 */
+	@RequestMapping(value = "/list", method = RequestMethod.POST)
+	@ResponseBody
+	public Object list(Model model, HttpServletRequest request) {
+
+		HttpServletRequestUtil.debugParams(request);
+		try {
+
+			Map<String, String> params = HttpServletRequestUtil
+					.getParamsMap(request);
+
+			String classmodule = params.get("classmodule");// 模块名
+			String classname = params.get("classname"); // 类名
+
+			List<ClassTable> allClasses = this.iTableService.findBatch(
+					classmodule, classname);
+
+			return PageSearchResultHandler.handleDBObjListNoPage(allClasses);
+
+		} catch (Exception e) {
+			return this.handleException(e);
+		}
+	}
 
 	/****
 	 * 进入前端查询单位页面 <br>

@@ -1,10 +1,13 @@
 package generator.db;
 
+import generator.model.ClassTable;
 import generator.model.EntityModel;
 import generator.model.Field;
 
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.annotation.Resource;
@@ -13,9 +16,12 @@ import javax.sql.DataSource;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.mou.common.DateUtil;
+import org.mou.common.StringUtil;
 import org.springframework.jdbc.core.BatchPreparedStatementSetter;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Service;
+import org.thymeleaf.util.StringUtils;
 
 @Service("iTableService")
 public class TableServiceImpl implements ITableService {
@@ -34,6 +40,72 @@ public class TableServiceImpl implements ITableService {
 		}
 
 		return this.jdbcTemplate;
+	}
+
+	public List<ClassTable> findBatch(String module, String classname) {
+
+		List<ClassTable> rtnList = null;
+
+		String classModule = module;
+		String className = classname;
+
+		if (StringUtil.isNotEmpty(classModule)) {
+			classModule = classModule.trim().toLowerCase();
+		}
+
+		if (StringUtil.isNotEmpty(classname)) {
+			className = StringUtils.capitalize(className.trim());
+		}
+
+		String sql = "SELECT * FROM class  ";
+
+		List<Object> argsList = new ArrayList<Object>();
+
+		StringBuffer sb = new StringBuffer();
+		if (StringUtil.isNotEmpty(classModule)) {
+			sb.append("and classmodule = ? ");
+			argsList.add(classModule);
+		}
+
+		if (StringUtil.isNotEmpty(className)) {
+			sb.append("and classname = ? ");
+			argsList.add(className);
+		}
+
+		if (sb.length() > 0) {
+			sql = sql + "WHERE" + sb.substring(3);
+
+			Object[] argsArr = argsList.toArray();
+			rtnList = getJdbcTemplate().query(sql, argsArr,
+					new ClassTableMapper());
+		} else {
+			rtnList = getJdbcTemplate().query(sql, new ClassTableMapper());
+		}
+
+		logger.debug("sql = {}", sql);
+		logger.debug("params", argsList);
+
+		logger.debug(rtnList);
+
+		return rtnList;
+	}
+
+	/****
+	 * 行转换器
+	 * 
+	 * @author NBQ
+	 *
+	 */
+	public class ClassTableMapper implements RowMapper<ClassTable> {
+
+		@Override
+		public ClassTable mapRow(ResultSet rs, int rowNum) throws SQLException {
+			ClassTable ct = new ClassTable();
+			ct.setClassmodule(rs.getString("classmodule"));
+			ct.setClassname(rs.getString("classname"));
+			ct.setClassrmk(rs.getString("classrmk"));
+			return ct;
+		}
 	}
 
 	/****
@@ -100,7 +172,7 @@ public class TableServiceImpl implements ITableService {
 		logger.debug("=========================");
 		logger.debug("保存数据库信息完毕!");
 	}
-	
+
 	public static void main(String[] args) {
 		System.out.println("2015-07-03 17:32:44:999".length());
 	}
