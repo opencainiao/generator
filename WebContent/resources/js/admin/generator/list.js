@@ -16,19 +16,6 @@
 var data_manage_functions = {
 
 	/***************************************************************************
-	 * 进入修改页面
-	 * 
-	 * @param data
-	 */
-	toEdit : function(data) {
-
-		var url = $.getSitePath() + '/update?classmodule=' + $("#classmodule").val() + "&classname=" + $("#classname").val();
-
-		alert(url);
-		return;
-		$.popUpWindow("编辑实体类信息", url, "800px", "400px", "edit", $("#data_manage"));
-	},
-	/***************************************************************************
 	 * 进入详细信息页面
 	 * 
 	 * @param data
@@ -148,18 +135,7 @@ var data_manage = {
 				display : '类说明',
 				name : 'classrmk',
 				width : 120
-		}, {
-			display : '操作',
-			name : 'operation',
-			m_type : 'buttons',
-			width : 200,
-			buttons : {
-				r_name : 'toEdit',
-				text : '修改',
-				callback : data_manage_functions.toEdit,
-				paramConfig : [ "classmodule" ,"classname" ]
-			} 
-		} ]
+		}]
 
 	}
 };
