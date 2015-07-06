@@ -24,6 +24,8 @@ var data_manage_functions = {
 
 		var url = $.getSitePath() + '/update?classmodule=' + $("#classmodule").val() + "&classname=" + $("#classname").val();
 
+		alert(url);
+		return;
 		$.popUpWindow("编辑实体类信息", url, "800px", "400px", "edit", $("#data_manage"));
 	},
 	/***************************************************************************
@@ -34,9 +36,9 @@ var data_manage_functions = {
 	 */
 	toDetail : function(data) {
 
-		var url = $.getSitePath() + '/detail?classmodule=' + $("#classmodule").val() + "&classname=" + $("#classname").val();
-
-		$.showDetailWindow("实体类信息", url, "600px", "300px");
+		var url = $.getSitePath() + '/detail?classmodule=' + data["classmodule"] + "&classname=" + data["classname"];
+		
+		$.showDetailWindow("实体类信息", url, "90%", "90%");
 	},
 	/***************************************************************************
 	 * 关闭编辑窗口
@@ -132,7 +134,10 @@ var data_manage = {
 			{
 				display : '模块',
 				name : 'classmodule',
-				width : 120
+				width : 120,
+				m_type : 'link',
+				select : [ "classmodule","classname" ],
+				callback : data_manage_functions.toDetail
 		},
 			{
 				display : '类',

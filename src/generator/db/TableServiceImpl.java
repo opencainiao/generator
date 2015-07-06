@@ -3,6 +3,7 @@ package generator.db;
 import generator.model.ClassTable;
 import generator.model.EntityModel;
 import generator.model.Field;
+import generator.model.FieldTable;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -63,27 +64,33 @@ public class TableServiceImpl implements ITableService {
 
 		StringBuffer sb = new StringBuffer();
 		if (StringUtil.isNotEmpty(classModule)) {
-			sb.append("and classmodule = ? ");
-			argsList.add(classModule);
+			sb.append("and classmodule like ? ");
+			// argsList.add(classModule);
+
+			argsList.add("%" + classModule + "%");
 		}
 
 		if (StringUtil.isNotEmpty(className)) {
-			sb.append("and classname = ? ");
-			argsList.add(className);
+			sb.append("and classname like ?");
+			// argsList.add(className);
+			argsList.add("%" + className + "%");
 		}
 
 		if (sb.length() > 0) {
-			sql = sql + "WHERE" + sb.substring(3);
+			sql = sql + "WHERE" + sb.substring(3)
+					+ " order by classModule,classname";
 
 			Object[] argsArr = argsList.toArray();
 			rtnList = getJdbcTemplate().query(sql, argsArr,
 					new ClassTableMapper());
 		} else {
+
+			sql = sql + " order by classModule,classname";
 			rtnList = getJdbcTemplate().query(sql, new ClassTableMapper());
 		}
 
 		logger.debug("sql = {}", sql);
-		logger.debug("params", argsList);
+		logger.debug("params {}", argsList);
 
 		logger.debug(rtnList);
 
@@ -175,5 +182,47 @@ public class TableServiceImpl implements ITableService {
 
 	public static void main(String[] args) {
 		System.out.println("2015-07-03 17:32:44:999".length());
+	}
+
+	@Override
+	public List<FieldTable> findClassFields(String classmodule, String classname) {
+		List<FieldTable> rtnList = null;
+
+		String sql = "SELECT * FROM fields WHERE classmodule=? AND classname = ? order by colorder ";
+
+		Object[] args = new Object[] { classmodule, classname };
+
+		rtnList = getJdbcTemplate().query(sql, args, new FieldTableMapper());
+
+		logger.debug("sql = {}", sql);
+		logger.debug("params {}", args);
+		logger.debug(rtnList);
+
+		return rtnList;
+	}
+
+	/****
+	 * 行转换器
+	 * 
+	 * @author NBQ
+	 *
+	 */
+	public class FieldTableMapper implements RowMapper<FieldTable> {
+
+		@Override
+		public FieldTable mapRow(ResultSet rs, int rowNum) throws SQLException {
+			FieldTable ft = new FieldTable();
+			ft.setClassmodule(rs.getString("classmodule"));
+			ft.setClassname(rs.getString("classname"));
+			ft.setClassrmk(rs.getString("classrmk"));
+
+			ft.setCtime(rs.getString("ctime"));
+			ft.setColname(rs.getString("colname"));
+			ft.setColorder(rs.getInt("colorder"));
+			ft.setColtitle(rs.getString("coltitle"));
+			ft.setColtype(rs.getString("coltype"));
+			
+			return ft;
+		}
 	}
 }

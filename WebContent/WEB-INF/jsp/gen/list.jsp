@@ -27,28 +27,20 @@
 		<li class="active">实体类管理</li>
 	</ul>
 
-	<nav class="navbar navbar-default" role="navigation"
-			style="margin-bottom: 0px; width: 100%; float: left;">
-			<ul
-				style="float: left; color: #9d9d9d; width: 30%;">
-				<li style="display: inline;">
-					<input id="unitname" name="unitname" class="form-control" type="text" style="width: 100%" placeholder="输入单位名称">
-				</li>
-			</ul>
-			<ul style="float: left; ">
-				<li style="display: inline; width: 10%;">
-					<button id="btn_search" class="btn btn-nm btn-default" type="button">查询</button>
-				</li>
-			</ul>
-		</nav>
-		
 	<div id="content_inner_page" class="innercontent" >
 	
 		<div class="navbar navbar-default">
 		    <form class="navbar-form navbar-left" >
-		        <div class="form-group " >
-		            <input class="form-control " style="width:300px" type="text" id="search_condition" name="search_condition"  placeholder="">
-		        </div>
+		        <div class="form-group">
+					<label for="classmodule"  style="width: 60px;">模块名</label> 
+					<input  id="classmodule" type="text" name="classmodule" 
+							placeholder="模块名" err-info="不允许为空" style=""/>
+				</div>
+				<div class="form-group">
+					<label for="classname"  style="margin-left:15px;width: 50px;">类名</label> 
+					<input type="text" name="classname"   id="classname"
+						placeholder="类名">
+				</div>
 		        <button class="btn btn-info" type="button" id="btn_search">
 		            查询
 		        </button>

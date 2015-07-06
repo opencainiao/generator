@@ -5,6 +5,7 @@ import generator.generators.AllGenerator;
 import generator.model.ClassTable;
 import generator.model.EntityModel;
 import generator.model.Field;
+import generator.model.FieldTable;
 import generator.model.RequestResult;
 import generator.util.ConfigurationManager;
 import generator.util.HttpServletRequestUtil;
@@ -87,6 +88,43 @@ public class GenController extends BaseController {
 		} catch (Exception e) {
 			return this.handleException(e);
 		}
+	}
+
+	/****
+	 * 查询系统实体类信息（条件查询，查询多笔，按照系统实体类码或名称）
+	 * 
+	 * @param model
+	 * @param request
+	 * @return
+	 */
+	@RequestMapping(value = "/detail", method = RequestMethod.GET)
+	public String detail(Model model, String classmodule, String classname,
+			HttpServletRequest request) {
+
+		String classrmk = "";
+		HttpServletRequestUtil.debugParams(request);
+		try {
+
+			List<FieldTable> ft = this.iTableService.findClassFields(
+					classmodule, classname);
+
+			if (ft.size() > 0) {
+				classrmk = ft.get(0).getClassrmk();
+			}
+
+			model.addAttribute("classrmk", classrmk);
+			model.addAttribute("classmodule", classmodule);
+			model.addAttribute("classname", classname);
+			
+			model.addAttribute("fields",JsonUtil.toJsonStr(ft));
+			
+			logger.debug(JsonUtil.toJsonStr(ft));
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return "/gen/detail";
 	}
 
 	/****
