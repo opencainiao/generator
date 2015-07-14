@@ -5,7 +5,7 @@ import ${domainfullname};
 import com.mongodb.DBObject;
 
 /****
- * 常量类型服务接口
+ * ${domainname}服务接口
  * 
  * @author NBQ
  *

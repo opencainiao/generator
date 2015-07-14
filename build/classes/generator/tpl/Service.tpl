@@ -14,7 +14,7 @@ import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;
 
 /****
- * 系统常量类型服务实现
+ * ${domainname}服务实现
  * 
  * @author NBQ
  *

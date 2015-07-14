@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 import com.bxb.modules.base.BaseDao;
 
 /****
- * 用户dao
+ * ${domainname}dao
  * 
  * @author NBQ
  *

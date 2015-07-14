@@ -115,9 +115,9 @@ public class GenController extends BaseController {
 			model.addAttribute("classrmk", classrmk);
 			model.addAttribute("classmodule", classmodule);
 			model.addAttribute("classname", classname);
-			
-			model.addAttribute("fields",JsonUtil.toJsonStr(ft));
-			
+
+			model.addAttribute("fields", JsonUtil.toJsonStr(ft));
+
 			logger.debug(JsonUtil.toJsonStr(ft));
 
 		} catch (Exception e) {
@@ -239,8 +239,8 @@ public class GenController extends BaseController {
 			String title = titleMap.get(ordernum);
 			if (StringUtil.isEmpty(title)) {
 				sb.append("英文名不能为空,");
-			} else if (!ValidateUtil.isOnlyCharacter(title)) {
-				sb.append("英文名只能为字母,");
+			} else if (!ValidateUtil.isOnlyCharacterOrXhx(title)) {
+				sb.append("英文名只能为字母和下划线组合,");
 			}
 			field.setColtitle(titleMap.get(ordernum));
 

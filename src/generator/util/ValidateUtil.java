@@ -23,9 +23,26 @@ public class ValidateUtil {
 		return ObjectId.isValid(_id);
 	}
 
-	public static boolean isOnlyCharacter(String str){
+	/****
+	 * 判断是否只包含字母
+	 * 
+	 * @param str
+	 * @return
+	 */
+	public static boolean isOnlyCharacter(String str) {
 		return str.matches("^[a-zA-Z]*");
 	}
+
+	/****
+	 * 判断是否字母或下划线
+	 * 
+	 * @param str
+	 * @return
+	 */
+	public static boolean isOnlyCharacterOrXhx(String str) {
+		return str.matches("^[a-zA-Z_]*");
+	}
+
 	/****
 	 * 判断一个字符串是否全是数字
 	 * 
@@ -90,7 +107,7 @@ public class ValidateUtil {
 		System.out.println(isNumericOrDouble("123.1"));
 		System.out.println(isNumericOrDouble("123.10"));
 		System.out.println(isNumericOrDouble("123.1.0"));
-		
+
 		System.out.println("123" + isOnlyCharacter("123"));
 		System.out.println("aba" + isOnlyCharacter("aba"));
 		System.out.println("ab1" + isOnlyCharacter("ab1"));

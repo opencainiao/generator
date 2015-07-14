@@ -62,7 +62,7 @@ public class GenController {
 		FileUtil.ensureNewFile(file);
 
 		// Writer out = new OutputStreamWriter(System.out);
-		Writer out = new OutputStreamWriter(new FileOutputStream(file));
+		Writer out = new OutputStreamWriter(new FileOutputStream(file),"UTF-8");
 		temp.process(data, out);
 
 		logger.debug("\n生成文件完毕\n{}\n文件目录:\n{}", filename,
