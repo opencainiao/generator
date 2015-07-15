@@ -112,6 +112,7 @@ var data_manage = {
 
 		data_manage.pageLayout();
 		
+		
 		$("#data_manage").attr("s_times", 1);
 	},
 	pageLayout : function() {

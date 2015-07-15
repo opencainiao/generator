@@ -29,9 +29,9 @@ public class BackendGenerator {
 
 		GenEntityFromModel.genEntityFile(model);
 		
-		GenDao.genDaoFile(model);
+		GenDao.genDaoFile(model,domainname);
 
-		GenService.genServiceAndInterface(model);
+		GenService.genServiceAndInterface(model,domainname);
 
 		GenController.genController(model, jspfoldername, domainname,
 				controllerparentpath);

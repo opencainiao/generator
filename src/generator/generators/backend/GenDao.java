@@ -37,13 +37,14 @@ public class GenDao {
 		return NameGetter.getNames(model);
 	}
 
-	public static void genDaoFile(EntityModel model) throws IOException,
+	public static void genDaoFile(EntityModel model,String classrmk) throws IOException,
 			TemplateException {
 		Configuration cfg = ConfigurationManager.getConfiguration();
 		Template temp = cfg.getTemplate("dao.tpl");
 
 		Map data = getData(model);
-
+		data.put("domainname", classrmk);
+		
 		String filename = ConfigurationManager.getGenFileDir(
 				model.getClassmodule(), model.getClassname())
 				+ File.separator + data.get("daofilename");
@@ -69,7 +70,7 @@ public class GenDao {
 
 		model.setFields(EntityModel.getFieldInfoForTest());
 
-		genDaoFile(model);
+		genDaoFile(model,"用户");
 	}
 
 }

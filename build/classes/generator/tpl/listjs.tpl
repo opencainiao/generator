@@ -111,6 +111,8 @@ var data_manage = {
 		$("#list").flexigrid(data_manage.gridsetting);
 
 		data_manage.pageLayout();
+		
+		$("#data_manage").attr("s_times", 1);
 	},
 	pageLayout : function() {
 

@@ -42,13 +42,14 @@ public class GenService {
 		return NameGetter.getNames(model);
 	}
 
-	public static void genInterface(EntityModel model) throws IOException,
+	public static void genInterface(EntityModel model,String classrmk) throws IOException,
 			TemplateException {
 		Configuration cfg = ConfigurationManager.getConfiguration();
 		Template temp = cfg.getTemplate("ISeivice.tpl");
 
 		Map data = getData(model);
-
+		data.put("domainname", classrmk);
+		
 		logger.debug("data\n{}", data);
 
 		String filename = ConfigurationManager.getGenFileDir(
@@ -67,13 +68,14 @@ public class GenService {
 
 	}
 
-	public static void genService(EntityModel model) throws IOException,
+	public static void genService(EntityModel model,String classrmk) throws IOException,
 			TemplateException {
 		Configuration cfg = ConfigurationManager.getConfiguration();
 		Template temp = cfg.getTemplate("Service.tpl");
 
 		Map data = getData(model);
-
+		data.put("domainname", classrmk);
+		
 		logger.debug("data\n{}", data);
 
 		String filename = ConfigurationManager.getGenFileDir(
@@ -99,10 +101,10 @@ public class GenService {
 	 * @throws IOException
 	 * @throws TemplateException
 	 */
-	public static void genServiceAndInterface(EntityModel model)
+	public static void genServiceAndInterface(EntityModel model,String classrmk)
 			throws IOException, TemplateException {
-		genInterface(model);
-		genService(model);
+		genInterface(model,classrmk);
+		genService(model,classrmk);
 	}
 
 	public static void main(String[] args) throws IOException,
@@ -118,7 +120,7 @@ public class GenService {
 
 		model.setFields(EntityModel.getFieldInfoForTest());
 
-		genServiceAndInterface(model);
+		genServiceAndInterface(model,"用户");
 
 	}
 

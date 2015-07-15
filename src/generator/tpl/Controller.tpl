@@ -22,7 +22,7 @@ import com.bxb.common.globalhandler.ErrorHandler;
 import com.bxb.common.globalobj.RequestResult;
 import com.bxb.common.util.HttpServletRequestUtil;
 import com.bxb.common.util.RegexPatternUtil;
-import com.bxb.controller.global.BaseController;
+import com.bxb.modules.base.BaseController;
 
 import ${domainfullname};
 import ${serviceinterfacefullname};
