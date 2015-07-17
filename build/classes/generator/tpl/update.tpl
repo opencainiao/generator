@@ -18,7 +18,7 @@
 <input type="hidden" name="ctx" value="<%=request.getContextPath()%>" />
 
 <div id="edit_div" class="onepage" style="margin-top: 30px">
-    <input type="hidden" name="_id" value="${r'${'}${bussnesdomainnameL}._id} readonly/>
+    <input type="hidden" name="_id" value="${r'${'}${bussnesdomainnameL}._id}"/>
     <sf:form modelAttribute="${bussnesdomainnameL}" class="form-horizontal center-block " style="width: 500px">
        <#list fields as model>
   			<div class="form-group ">
