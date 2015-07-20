@@ -104,8 +104,11 @@ div.form-group > input{
 					
 					var rowid= $(this).closest('tr').attr("id");
 					
-					var rowno = rowid.substr(rowid.length-1,1) ;
-					//alert( rowno + "____" +  sno);					
+					//alert(rowid);
+					var idx_ = rowid.lastIndexOf("_");
+					
+					var rowno = rowid.substr(idx_ + 1) ;
+					//alert( rowno + "---" +  sno);			
 					order[rowno] = sno;
 				});
 				

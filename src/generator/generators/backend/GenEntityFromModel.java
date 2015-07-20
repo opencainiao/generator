@@ -4,8 +4,12 @@ import generator.model.EntityModel;
 import generator.util.ConfigurationManager;
 import generator.util.NameGetter;
 
+import java.io.BufferedWriter;
+import java.io.FileOutputStream;
 import java.io.FileWriter;
+import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
+import java.io.Writer;
 import java.util.Map;
 
 import org.apache.commons.lang3.StringUtils;
@@ -38,11 +42,17 @@ public class GenEntityFromModel {
 					model.getClassmodule(), model.getClassname())
 					+ "\\" + initcap(classname) + ".java";
 
-			FileWriter fw = new FileWriter(filename);
-			PrintWriter pw = new PrintWriter(fw);
-			pw.println(content);
-			pw.flush();
-			pw.close();
+			// FileWriter fw = new FileWriter(filename);
+			// PrintWriter pw = new PrintWriter(fw);
+			// pw.println(content);
+			// pw.flush();
+			// pw.close();
+
+			Writer out = new BufferedWriter(new OutputStreamWriter(
+					new FileOutputStream(filename), "UTF-8"));
+			out.append(content);
+			out.flush();
+			out.close();
 
 			System.out.println("生成model类完毕!\n" + "【" + filename + "】");
 		} catch (Exception e) {
@@ -110,7 +120,7 @@ public class GenEntityFromModel {
 			sb.append("\tprivate " + type2JavaType(colTypes[i]) + " "
 					+ colnames[i] + ";");
 
-			sb.append(" \\\\" + colRmks[i]);
+			sb.append(" //" + colRmks[i]);
 
 			sb.append("\r\n");
 		}

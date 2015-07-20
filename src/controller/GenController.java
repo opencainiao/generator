@@ -201,7 +201,7 @@ public class GenController extends BaseController {
 		Set<String> keysParam = params.keySet();
 		for (String key : keysParam) {
 
-			String orderno = key.substring(key.length() - 1);
+			String orderno = key.substring(key.lastIndexOf("_") + 1);
 
 			if (ValidateUtil.isNumeric(orderno)) {
 				setKeysOrdered.add(orderno);
