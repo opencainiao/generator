@@ -23,7 +23,7 @@
 							name="${model.coltitle}" value="${r'${'}${bussnesdomainnameL}.${model.coltitle}}" readonly>
 					</div>
 				</div>
-	      	</#list>
+	    </#list>
 		</div>
 	</div>
 </body>
